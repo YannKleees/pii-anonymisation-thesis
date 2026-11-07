@@ -1,78 +1,57 @@
-# Thesis: PII Detection and Anonymisation
+# PII detection and anonymisation of student project documents
 
-Synthetic document generation, defender (detection + redaction), attacker (re-identification), and evaluation for RQ1–RQ4.
+Bachelor's thesis code (BSc Data Science and AI, Maastricht University, 2026). It generates realistic synthetic student project documents (agendas, minutes, project plans as DOCX and PDF), detects and removes personal data in them with a layout-aware pipeline (patterns, GLiNER, OCR, cross-region linking), and then attacks the redacted documents to measure how much re-identification risk is left.
 
-## Setup
+## Results
 
-```bash
+On 500 synthetic documents with 8,768 annotated identifier mentions:
+
+- **RQ1, detection:** the full pipeline finds 8,750 of 8,768 mentions (recall 0.998; 18 missed, 13 of them on cover pages). Precision is 0.70 because it over-redacts, mostly dates (2,603 of 3,768 extra redactions). For direct identifiers alone precision is 0.90.
+- **RQ2, components:** a text-only baseline finds 44% of mentions. Layout-aware zoning (cover pages, headers, footers, tables) raises this to 98%, OCR and cross-region linking to 99.8%. GLiNER removes the most leakage of all components.
+- **RQ4, re-identification:** after redaction, an attacker has 0.16 usable signals per document instead of 17.3 in the original and can no longer narrow down who wrote it (median 3,500 candidates, about the whole synthetic population of 3,533). Removing only direct identifiers still leaves 4 signals and narrows the field to 76 candidates.
+- **RQ3** repeats the evaluation on real, manually reviewed student documents. Those documents and their knowledge base contain personal data and are not part of this repository, so RQ3 and the real-document part of RQ4 cannot be re-run from it; their aggregated results are kept in the notebook outputs.
+
+## Stack
+
+Python · GLiNER, transformers, PyTorch · EasyOCR, OpenCV · PyMuPDF, python-docx, ReportLab · scikit-learn · Faker · pandas · Streamlit and Flask (review UIs)
+
+## Run it
+
+```
 pip install -r requirements.txt
 ```
 
-Optional: install LibreOffice for DOCX→PDF conversion.
+LibreOffice is optional (DOCX to PDF export). GLiNER and EasyOCR download their models on first use.
 
-## Generate a synthetic dataset
+Generate a synthetic dataset (the config used for the thesis is included):
 
-```bash
-python -m document_generator.generate --config path/to/config.json
+```
+python -m document_generator.generate --config notebooks/workspace/generation-config.json
 ```
 
-## Run the defender on documents
+Redact documents:
 
-```bash
+```
 python -m thesis_project.defender path/to/file_or_folder --output-root out/
 ```
 
-Useful flags: `--redact-quasi`, `--no-pdf`, `--ner-model NAME`, `--pdf-ocr-all-pages`.
+By default only direct identifiers (names, student IDs, emails) are removed; `--redact-quasi` also removes quasi-identifiers such as course codes, dates and group labels. Other flags: `--no-pdf`, `--ner-model NAME`, `--pdf-ocr-all-pages`, `--ner-local-files-only`.
 
-### Output guarantees
+The defender writes a new file (`<stem>_anonymized.<ext>`) and never changes the source. Redacted content is removed, not covered: DOCX text runs are rewritten, embedded images are repacked with the regions blacked out, and PDFs go through PyMuPDF's `apply_redactions()`, so copy and paste or text search cannot recover the original. Each run also writes an audit log and a redaction map. Everything runs locally; no document text leaves the machine.
 
-The defender writes a brand new document to `<output-root>/<stem>_anonymized.<ext>` the source file is never modified.
-Redacted content is actually removed, not just visually covered:
-- **DOCX text**: paragraph runs are rewritten in-place via `replace_paragraph_text`, so the masked tokens replace the original text in the underlying XML.
-- **DOCX images**: embedded media parts are repacked with the redacted regions drawn as opaque rectangles before the ZIP is rewritten ([redact.py:99-143](thesis_project/defender/redact.py#L99-L143)).
-- **PDF text and images**: redactions go through PyMuPDF's `add_redact_annot` + `apply_redactions()` ([redact.py:316-327](thesis_project/defender/redact.py#L316-L327)), which strips the underlying content stream — copy/paste, text search, and PDF inspection tools cannot recover the original.
-
-Each run also writes an audit trail (`audit_log.jsonl`) and a redaction mapping JSON so you can verify what was removed.
-
-### Privacy of the NER backend
-
-All detection runs **locally on your machine**. GLiNER, the candidate name model, EasyOCR, and any transformer NER are loaded into the local Python process  no document text, no detections, and no PII ever leave the machine. Pass `--ner-local-files-only` to additionally block GLiNER from contacting Hugging Face for model downloads (use a pre-downloaded local model path).
-
-## Run the experiments (RQ1–RQ4)
+Experiments: the notebooks `notebooks/RQ1.ipynb` to `RQ4.ipynb`, or
 
 ```python
 from thesis_project import Experiments, Config
-
-experiments = Experiments(dataset_root="notebooks/workspace/dataset", config=Config())
-results = experiments.run_all()        # all four research questions
-# or run one at a time: experiments.rq1(), .rq2(), .rq3(), .rq4()
-```
-or go in the notebooks
-
-## Run the tests
-
-```bash
-pytest test_pipeline_integration.py -v
+Experiments(dataset_root="notebooks/workspace/dataset", config=Config()).rq1()   # also rq2(), rq4()
 ```
 
-## UIs
+Review UIs (need `pip install streamlit flask`): `streamlit run UI/ui.py` and `python UI/label.py` (http://127.0.0.1:7998).
 
-Streamlit review app:
+## Data
 
-```bash
-streamlit run UI/ui.py
-```
-
-Flask labeling app (RQ3 annotation review):
-
-```bash
-python UI/label.py
-# open http://127.0.0.1:7998
-```
+All documents in `notebooks/workspace/dataset` are synthetic: people come from Faker, and any match with a real person is a coincidence. The real documents used for RQ3 are not included.
 
 ## AI tool usage
 
-The codebase was designed and written by the author. GitHub Copilot provided in-editor autocomplete during development, and ChatGPT was
-used to draft isolated presentation code (plotting helpers in the
-notebooks and the two UIs oen for labeling and one for general use case) and to draft this README (: The pipeline was otherwise written by the author, except for the regex patterns
-and the UI front-ends. AI tools were also used for occasional debugging, chart styling decisions, and cross-checking numerical claims against the code.
+The codebase was designed and written by me. GitHub Copilot provided in-editor autocomplete, and ChatGPT was used to draft isolated presentation code (plotting helpers in the notebooks and the two UIs, one for labeling and one for general use) and a first draft of this README. The pipeline was otherwise written by me, except for the regex patterns and the UI front-ends. AI tools were also used for occasional debugging, chart styling decisions and cross-checking numerical claims against the code.

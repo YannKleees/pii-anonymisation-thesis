@@ -1,0 +1,33 @@
+code,variant,patterns,ner,layout,ocr,link,correctly_detected,extra_redactions,remaining_reference_mentions,precision,recall,f1,severity_weighted_residual_leakage,ocr_precision,ocr_recall,ocr_f1,ocr_remaining_reference_mentions
+- | - | - | - | -,No patterns + No GLiNER + Body only + No OCR + No linking,False,False,False,False,False,0,0,8768,0.0,0.0,0.0,20476.0,0,0.0,0,148
+- | - | - | - | X,No patterns + No GLiNER + Body only + No OCR + Linking,False,False,False,False,True,0,0,8768,0.0,0.0,0.0,20476.0,0,0.0,0,148
+- | - | - | O | -,No patterns + No GLiNER + Body only + OCR + No linking,False,False,False,True,False,0,0,8768,0.0,0.0,0.0,20476.0,0,0.0,0,148
+- | - | - | O | X,No patterns + No GLiNER + Body only + OCR + Linking,False,False,False,True,True,0,0,8768,0.0,0.0,0.0,20476.0,0,0.0,0,148
+- | - | L | - | -,No patterns + No GLiNER + Layout + No OCR + No linking,False,False,True,False,False,0,0,8768,0.0,0.0,0.0,20476.0,0,0.0,0,148
+- | - | L | - | X,No patterns + No GLiNER + Layout + No OCR + Linking,False,False,True,False,True,0,0,8768,0.0,0.0,0.0,20476.0,0,0.0,0,148
+- | - | L | O | -,No patterns + No GLiNER + Layout + OCR + No linking,False,False,True,True,False,0,0,8768,0.0,0.0,0.0,20476.0,0,0.0,0,148
+- | - | L | O | X,No patterns + No GLiNER + Layout + OCR + Linking,False,False,True,True,True,0,0,8768,0.0,0.0,0.0,20476.0,0,0.0,0,148
+- | G | - | - | -,No patterns + GLiNER + Body only + No OCR + No linking,False,True,False,False,False,3843,1194,4925,0.7629541393686718,0.4382983576642336,0.5567547989858747,11509.0,0,0.0,0,148
+- | G | - | - | X,No patterns + GLiNER + Body only + No OCR + Linking,False,True,False,False,True,3843,1466,4925,0.7238651346769637,0.4382983576642336,0.5459970164097464,11509.0,0,0.0,0,148
+- | G | - | O | -,No patterns + GLiNER + Body only + OCR + No linking,False,True,False,True,False,3991,1674,4777,0.7045013239187996,0.4551779197080292,0.5530381764013025,11065.0,0.2356687898089172,1.0,0.3814432989690722,0
+- | G | - | O | X,No patterns + GLiNER + Body only + OCR + Linking,False,True,False,True,True,3991,1946,4777,0.6722250294761665,0.4551779197080292,0.5428085685141107,11065.0,0.2356687898089172,1.0,0.3814432989690722,0
+- | G | L | - | -,No patterns + GLiNER + Layout + No OCR + No linking,False,True,True,False,False,7905,2517,863,0.7584916522740357,0.9015739051094891,0.8238665971860344,2152.0,0,0.0,0,148
+- | G | L | - | X,No patterns + GLiNER + Layout + No OCR + Linking,False,True,True,False,True,7947,3214,821,0.712032971955918,0.9063640510948905,0.7975312358874003,2059.0,0,0.0,0,148
+- | G | L | O | -,No patterns + GLiNER + Layout + OCR + No linking,False,True,True,True,False,8053,2997,715,0.7287782805429864,0.9184534671532847,0.8126955293167827,1708.0,0.2356687898089172,1.0,0.3814432989690722,0
+- | G | L | O | X,No patterns + GLiNER + Layout + OCR + Linking,False,True,True,True,True,8095,3694,673,0.6866570531851727,0.9232436131386861,0.7875662791263317,1615.0,0.2356687898089172,1.0,0.3814432989690722,0
+P | - | - | - | -,Patterns + No GLiNER + Body only + No OCR + No linking,True,False,False,False,False,0,0,8768,0.0,0.0,0.0,20476.0,0,0.0,0,148
+P | - | - | - | X,Patterns + No GLiNER + Body only + No OCR + Linking,True,False,False,False,True,0,0,8768,0.0,0.0,0.0,20476.0,0,0.0,0,148
+P | - | - | O | -,Patterns + No GLiNER + Body only + OCR + No linking,True,False,False,True,False,0,0,8768,0.0,0.0,0.0,20476.0,0,0.0,0,148
+P | - | - | O | X,Patterns + No GLiNER + Body only + OCR + Linking,True,False,False,True,True,0,0,8768,0.0,0.0,0.0,20476.0,0,0.0,0,148
+P | - | L | - | -,Patterns + No GLiNER + Layout + No OCR + No linking,True,False,True,False,False,913,997,7855,0.4780104712041885,0.1041286496350365,0.17100580633077353,18434.0,0,0.0,0,148
+P | - | L | - | X,Patterns + No GLiNER + Layout + No OCR + Linking,True,False,True,False,True,913,1263,7855,0.4195772058823529,0.1041286496350365,0.16684941520467836,18434.0,0,0.0,0,148
+P | - | L | O | -,Patterns + No GLiNER + Layout + OCR + No linking,True,False,True,True,False,913,997,7855,0.4780104712041885,0.1041286496350365,0.17100580633077353,18434.0,0,0.0,0,148
+P | - | L | O | X,Patterns + No GLiNER + Layout + OCR + Linking,True,False,True,True,True,913,1263,7855,0.4195772058823529,0.1041286496350365,0.16684941520467836,18434.0,0,0.0,0,148
+P | G | - | - | -,Patterns + GLiNER + Body only + No OCR + No linking,True,True,False,False,False,3843,1194,4925,0.7629541393686718,0.4382983576642336,0.5567547989858747,11509.0,0,0.0,0,148
+P | G | - | - | X,Patterns + GLiNER + Body only + No OCR + Linking,True,True,False,False,True,3843,1466,4925,0.7238651346769637,0.4382983576642336,0.5459970164097464,11509.0,0,0.0,0,148
+P | G | - | O | -,Patterns + GLiNER + Body only + OCR + No linking,True,True,False,True,False,3991,1674,4777,0.7045013239187996,0.4551779197080292,0.5530381764013025,11065.0,0.2356687898089172,1.0,0.3814432989690722,0
+P | G | - | O | X,Patterns + GLiNER + Body only + OCR + Linking,True,True,False,True,True,3991,1946,4777,0.6722250294761665,0.4551779197080292,0.5428085685141107,11065.0,0.2356687898089172,1.0,0.3814432989690722,0
+P | G | L | - | -,Patterns + GLiNER + Layout + No OCR + No linking,True,True,True,False,False,8579,2549,189,0.7709381739755572,0.9784443430656934,0.8623843988741456,547.0,0,0.0,0,148
+P | G | L | - | X,Patterns + GLiNER + Layout + No OCR + Linking,True,True,True,False,True,8602,3288,166,0.7234650967199328,0.9810675182481752,0.832800851970181,493.0,0,0.0,0,148
+P | G | L | O | -,Patterns + GLiNER + Layout + OCR + No linking,True,True,True,True,False,8727,3029,41,0.7423443348077577,0.9953239051094891,0.85041902163321,103.0,0.2356687898089172,1.0,0.3814432989690722,0
+P | G | L | O | X,Patterns + GLiNER + Layout + OCR + Linking,True,True,True,True,True,8750,3768,18,0.6989934494328167,0.9979470802919708,0.8221366156158978,49.0,0.2356687898089172,1.0,0.3814432989690722,0

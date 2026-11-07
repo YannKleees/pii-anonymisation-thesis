@@ -1,0 +1,219 @@
+{
+  "doc_id": "doc_00001_agenda",
+  "source_document": "notebooks\\workspace\\dataset\\documents\\doc_00001_agenda.docx",
+  "redacted_document": "notebooks\\workspace\\dataset\\documents\\notebook_outputs\\redacted_documents\\doc_00001_agenda_anonymized.docx",
+  "problematic": false,
+  "problem_reasons": [],
+  "audit_summary": {
+    "masked": 6
+  },
+  "counts": {
+    "detections": 6,
+    "redaction_plan": 6,
+    "audit_rows": 6
+  },
+  "detections": [
+    {
+      "label": "Student number",
+      "surface": "i6316019",
+      "start": 30,
+      "end": 38,
+      "region": "cover",
+      "path": "cover:p4",
+      "score": 0.995,
+      "source": "pattern_student_number",
+      "entity_key": null,
+      "metadata": {}
+    },
+    {
+      "label": "Student number",
+      "surface": "i6315736",
+      "start": 51,
+      "end": 59,
+      "region": "cover",
+      "path": "cover:p4",
+      "score": 0.995,
+      "source": "pattern_student_number",
+      "entity_key": null,
+      "metadata": {}
+    },
+    {
+      "label": "Student number",
+      "surface": "i6315937",
+      "start": 84,
+      "end": 92,
+      "region": "cover",
+      "path": "cover:p4",
+      "score": 0.995,
+      "source": "pattern_student_number",
+      "entity_key": null,
+      "metadata": {}
+    },
+    {
+      "label": "Student number",
+      "surface": "i6315163",
+      "start": 109,
+      "end": 117,
+      "region": "cover",
+      "path": "cover:p4",
+      "score": 0.995,
+      "source": "pattern_student_number",
+      "entity_key": null,
+      "metadata": {}
+    },
+    {
+      "label": "Institutional email",
+      "surface": "w.jackson@student.maastrichtuniversity.nl",
+      "start": 121,
+      "end": 162,
+      "region": "cover",
+      "path": "cover:p4",
+      "score": 0.99,
+      "source": "pattern_email",
+      "entity_key": null,
+      "metadata": {}
+    },
+    {
+      "label": "Student number",
+      "surface": "i6315175",
+      "start": 177,
+      "end": 185,
+      "region": "cover",
+      "path": "cover:p4",
+      "score": 0.995,
+      "source": "pattern_student_number",
+      "entity_key": null,
+      "metadata": {}
+    }
+  ],
+  "redaction_plan": [
+    {
+      "region": "cover",
+      "path": "cover:p4",
+      "label": "Student number",
+      "action": "mask_text",
+      "start": 30,
+      "end": 38,
+      "replacement": "[Student number]",
+      "detector": "pattern_student_number",
+      "metadata": {}
+    },
+    {
+      "region": "cover",
+      "path": "cover:p4",
+      "label": "Student number",
+      "action": "mask_text",
+      "start": 51,
+      "end": 59,
+      "replacement": "[Student number]",
+      "detector": "pattern_student_number",
+      "metadata": {}
+    },
+    {
+      "region": "cover",
+      "path": "cover:p4",
+      "label": "Student number",
+      "action": "mask_text",
+      "start": 84,
+      "end": 92,
+      "replacement": "[Student number]",
+      "detector": "pattern_student_number",
+      "metadata": {}
+    },
+    {
+      "region": "cover",
+      "path": "cover:p4",
+      "label": "Student number",
+      "action": "mask_text",
+      "start": 109,
+      "end": 117,
+      "replacement": "[Student number]",
+      "detector": "pattern_student_number",
+      "metadata": {}
+    },
+    {
+      "region": "cover",
+      "path": "cover:p4",
+      "label": "Institutional email",
+      "action": "mask_text",
+      "start": 121,
+      "end": 162,
+      "replacement": "[Institutional email]",
+      "detector": "pattern_email",
+      "metadata": {}
+    },
+    {
+      "region": "cover",
+      "path": "cover:p4",
+      "label": "Student number",
+      "action": "mask_text",
+      "start": 177,
+      "end": 185,
+      "replacement": "[Student number]",
+      "detector": "pattern_student_number",
+      "metadata": {}
+    }
+  ],
+  "audit": [
+    {
+      "doc_id": "doc_00001_agenda",
+      "region": "cover",
+      "path": "cover:p4",
+      "label": "Student number",
+      "surface": "i6316019",
+      "detector": "pattern_student_number",
+      "action": "masked",
+      "score": "score=0.99"
+    },
+    {
+      "doc_id": "doc_00001_agenda",
+      "region": "cover",
+      "path": "cover:p4",
+      "label": "Student number",
+      "surface": "i6315736",
+      "detector": "pattern_student_number",
+      "action": "masked",
+      "score": "score=0.99"
+    },
+    {
+      "doc_id": "doc_00001_agenda",
+      "region": "cover",
+      "path": "cover:p4",
+      "label": "Student number",
+      "surface": "i6315937",
+      "detector": "pattern_student_number",
+      "action": "masked",
+      "score": "score=0.99"
+    },
+    {
+      "doc_id": "doc_00001_agenda",
+      "region": "cover",
+      "path": "cover:p4",
+      "label": "Student number",
+      "surface": "i6315163",
+      "detector": "pattern_student_number",
+      "action": "masked",
+      "score": "score=0.99"
+    },
+    {
+      "doc_id": "doc_00001_agenda",
+      "region": "cover",
+      "path": "cover:p4",
+      "label": "Institutional email",
+      "surface": "w.jackson@student.maastrichtuniversity.nl",
+      "detector": "pattern_email",
+      "action": "masked",
+      "score": "score=0.99"
+    },
+    {
+      "doc_id": "doc_00001_agenda",
+      "region": "cover",
+      "path": "cover:p4",
+      "label": "Student number",
+      "surface": "i6315175",
+      "detector": "pattern_student_number",
+      "action": "masked",
+      "score": "score=0.99"
+    }
+  ]
+}

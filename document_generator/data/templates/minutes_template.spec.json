@@ -1,0 +1,78 @@
+{
+  "template_id": "minutes",
+  "slots": [
+    {
+      "id": "course_code",
+      "fill": "course.course_code"
+    },
+    {
+      "id": "meeting_date",
+      "fill": "meeting.date"
+    },
+    {
+      "id": "group_number",
+      "fill": "group.number"
+    },
+    {
+      "id": "group_members",
+      "fill": "group.members"
+    },
+    {
+      "id": "attendees",
+      "fill": "meeting.attendees"
+    },
+    {
+      "id": "big_picture",
+      "fill": "faker.paragraph",
+      "args": {
+        "sentences": 8
+      }
+    },
+    {
+      "id": "task_completion",
+      "fill": "faker.bullets",
+      "args": {
+        "min_items": 8,
+        "max_items": 14,
+        "per_member": true,
+        "mode": "completed",
+        "min_words": 12,
+        "max_words": 22,
+        "two_sentence_prob": 0.25
+      }
+    },
+    {
+      "id": "task_planning",
+      "fill": "faker.bullets",
+      "args": {
+        "min_items": 8,
+        "max_items": 14,
+        "per_member": true,
+        "mode": "planned",
+        "min_words": 12,
+        "max_words": 22,
+        "two_sentence_prob": 0.25
+      }
+    },
+    {
+      "id": "open_questions",
+      "fill": "faker.bullets",
+      "args": {
+        "min_items": 4,
+        "max_items": 10,
+        "mode": "questions",
+        "min_words": 10,
+        "max_words": 18,
+        "two_sentence_prob": 0.15
+      }
+    },
+    {
+      "id": "header",
+      "fill": "layout.header"
+    },
+    {
+      "id": "footer",
+      "fill": "layout.footer"
+    }
+  ]
+}

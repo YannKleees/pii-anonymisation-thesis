@@ -1,0 +1,189 @@
+{
+  "template_id": "project_plan",
+  "slots": [
+    {
+      "id": "document_date",
+      "fill": "doc.date"
+    },
+    {
+      "id": "proposal_title",
+      "fill": "faker.title"
+    },
+    {
+      "id": "customer",
+      "fill": "project.customer"
+    },
+    {
+      "id": "coordinator_line",
+      "fill": "project.coordinator_line"
+    },
+    {
+      "id": "project_duration",
+      "fill": "doc.duration"
+    },
+    {
+      "id": "programme",
+      "fill": "course.programme"
+    },
+    {
+      "id": "participant_1_full_name",
+      "fill": "student.full_legal_name",
+      "args": {
+        "index": 1
+      }
+    },
+    {
+      "id": "participant_2_full_name",
+      "fill": "student.full_legal_name",
+      "args": {
+        "index": 2
+      }
+    },
+    {
+      "id": "participant_3_full_name",
+      "fill": "student.full_legal_name",
+      "args": {
+        "index": 3
+      }
+    },
+    {
+      "id": "participant_4_full_name",
+      "fill": "student.full_legal_name",
+      "args": {
+        "index": 4
+      }
+    },
+    {
+      "id": "participant_5_full_name",
+      "fill": "student.full_legal_name",
+      "args": {
+        "index": 5
+      }
+    },
+    {
+      "id": "participant_6_full_name",
+      "fill": "student.full_legal_name",
+      "args": {
+        "index": 6
+      }
+    },
+    {
+      "id": "participant_1_student_number",
+      "fill": "student.student_number",
+      "args": {
+        "index": 1
+      }
+    },
+    {
+      "id": "participant_2_student_number",
+      "fill": "student.student_number",
+      "args": {
+        "index": 2
+      }
+    },
+    {
+      "id": "participant_3_student_number",
+      "fill": "student.student_number",
+      "args": {
+        "index": 3
+      }
+    },
+    {
+      "id": "participant_4_student_number",
+      "fill": "student.student_number",
+      "args": {
+        "index": 4
+      }
+    },
+    {
+      "id": "participant_5_student_number",
+      "fill": "student.student_number",
+      "args": {
+        "index": 5
+      }
+    },
+    {
+      "id": "participant_6_student_number",
+      "fill": "student.student_number",
+      "args": {
+        "index": 6
+      }
+    },
+    {
+      "id": "section_authors",
+      "fill": "project.section_authors"
+    },
+    {
+      "id": "section_reviewers",
+      "fill": "project.section_reviewers"
+    },
+    {
+      "id": "section_text",
+      "fill": "project.section_text"
+    },
+    {
+      "id": "section_note",
+      "fill": "faker.paragraph",
+      "args": {
+        "paragraphs": 1,
+        "sentences": 2
+      }
+    },
+    {
+      "id": "intro_text",
+      "fill": "project.objectives_text"
+    },
+    {
+      "id": "gantt_text",
+      "fill": "faker.paragraph",
+      "args": {
+        "paragraphs": 1,
+        "sentences": 2
+      }
+    },
+    {
+      "id": "table_text",
+      "fill": "project.table_text"
+    },
+    {
+      "id": "references_text",
+      "fill": "faker.references",
+      "args": {
+        "min_items": 5,
+        "max_items": 10
+      }
+    },
+    {
+      "id": "task_numbers",
+      "fill": "project.task_numbers"
+    },
+    {
+      "id": "task_title",
+      "fill": "project.task_title"
+    },
+    {
+      "id": "task_lead",
+      "fill": "project.task_lead"
+    },
+    {
+      "id": "task_participants",
+      "fill": "project.task_participants"
+    },
+    {
+      "id": "task_dates",
+      "fill": "project.task_dates"
+    },
+    {
+      "id": "description",
+      "fill": "project.task_description"
+    },
+    {
+      "id": "header",
+      "fill": "layout.header"
+    },
+    {
+      "id": "footer",
+      "fill": "layout.footer"
+    }
+  ]
+}

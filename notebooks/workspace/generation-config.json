@@ -1,0 +1,50 @@
+{
+  "dataset_name": "dataset",
+  "seed": 2026,
+  "output_dir": "notebooks/workspace",
+  "templates": [
+    {
+      "template_id": "agenda",
+      "path": "document_generator/data/templates/agenda_template.docx",
+      "spec": "document_generator/data/templates/agenda_template.spec.json",
+      "weight": 1.0
+    },
+    {
+      "template_id": "minutes",
+      "path": "document_generator/data/templates/minutes_template.docx",
+      "spec": "document_generator/data/templates/minutes_template.spec.json",
+      "weight": 1.0
+    },
+    {
+      "template_id": "project_plan",
+      "path": "document_generator/data/templates/project_plan_template.docx",
+      "spec": "document_generator/data/templates/project_plan_template.spec.json",
+      "weight": 1.0
+    }
+  ],
+  "population": {
+    "num_students": 3500,
+    "num_teaching_assistants": 30,
+    "num_coordinators": 3,
+    "num_courses": 8,
+    "groups_per_course": 6
+  },
+  "documents": {
+    "num_documents": 500,
+    "pdf_ratio": 0.0,
+    "pdf_converter_binary": "soffice"
+  },
+  "splits": {
+    "train": 0.7,
+    "val": 0.1,
+    "test": 0.2
+  },
+  "controller": {
+    "typo_prob_student_number": 0.05,
+    "typo_prob_email": 0.05,
+    "header_prob": 0.5,
+    "header_pii_prob": 0.2,
+    "footer_prob": 0.5,
+    "footer_pii_prob": 0.2
+  }
+}

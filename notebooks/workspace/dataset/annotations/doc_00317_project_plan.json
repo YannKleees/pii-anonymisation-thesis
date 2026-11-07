@@ -1,0 +1,4619 @@
+{
+  "doc_id": 317,
+  "template_id": "project_plan",
+  "seed": 2026,
+  "text": "Research Proposal — DSAI2907\n\nDSAI2907 — Diverse 4thgeneration parallelism\nResearch Proposal — DSAI2907\n\nResearch Proposal — DSAI2907\nResearch Proposal — DSAI2907\n\nDSAI2907 — Diverse 4thgeneration parallelism\nResearch Proposal — DSAI2907\n\nResearch Proposal — DSAI2907\nResearch Proposal — DSAI2907\n\nDSAI2907 — Diverse 4thgeneration parallelism\nResearch Proposal — DSAI2907\n\nResearch Proposal — DSAI2907\nProject 3-1\nProject plan template\nPreamble\nEvery researcher but also heads of R&D, marketing groups, and companies have to write research and development plans. Sometimes different names like market analysis or business plan are used in business environments. However, the key structure and purpose of all of these documents is very similar: to convince someone to invest into your ideas. \nHere we provide you with a template for writing professional project plans. The template is strongly inspired by the H2020 template used for proposing European Research projects.\nWork like a professional scientist\nGiven that you are writing a project plan for a research project it is key that you argue your ideas and approach properly based on scientific literature and state-of-the-art related work. Do not make claims you cannot support with scientific literature or own scientific results. Avoid speculations. But if you must, clearly say when you speculate. Working as a professional scientist means that you take responsibility for your actions and the results of your research. So you must analyse your own work critically. Critical analysis means self-reflection and a clear statement of the (potential) impact of your work (advantages and disadvantages).\nPlagiarism will not be tolerated\nPlagiarism in your research plan will not be tolerated. Keep in mind: Plagiarism is not just copying text and images. Plagiarism is also stealing ideas or pretending that you are the first having such an idea. You cannot protect yourself by claiming lack of knowledge. As a scientist it is your job to ensure that you studied the field or research sufficiently so that you know relevant related work! \nDividing and taking responsibility\nIn you project group make sure that everyone contributes to the project plan. Take responsibility, divide work, but also support each other. For each section you are asked to name responsible authors and colleagues who act as internal reviewers. Every section should be checked by at least one person in addition to the original author. It is not accepted that you write: we all did everything.: Make sure to properly distribute the writing work (about) equally. Everyone must contribute.\nShared documents \nWhile we prefer Latex for writing professional publications even under exact scientists it is common to write project plans together by using shared Word files. You can e.g. copy the template to Google docs to work together efficiently on the document at the same time.\n\n\nResearch Proposal, Project 3-1\nDepartment of Advanced Computing Sciences, Maastricht University\n19/11/2025\nTitle of Proposal: Innovative contextually-based help-desk\nCustomer: Customer: Heather Soto, Maastricht University\nCoordinator: Coordinator: Heather Soto, Tutor: Shannon Medina\nDuration: 2025-11-19 to 2026-04-22\nProgram: MSc Data Science for Decision Making\n\nParticipant name\nParticipant ID\n1\nMark Aguilar\ni1366437\n2\nWalter Li\ni6317612\n3\nSarah Carlson\ni6315438\n4\nMelissa Watson\ni6317280\n5\nJennifer Jones\ni6317350\n6\nJames Stark\ni6314994\n\nContents\n1 Excellence\t3\n1.1 Motivation, context, problem statement\t3\n1.2 Scientific and technological objectives\t3\n1.3 Requirements\t3\n1.4 Concept and approach\t3\n1.5 Work so far\t3\n1.6 Ambition\t4\n1.7 Related Work\t4\n2 Impact\t4\n2.1 Societal impact\t4\n2.1 Economic impact\t4\n2.2 Research impact\t4\n2.3 Other impact\t5\n3 Implementation\t6\n3.1 Gantt chart\t6\n3.2 Work plan\t7\n3.3 Milestones\t7\n3.4 Deliverables\t7\n3.5 Risk management\t7\n4 Concluding remarks\t8\nReferences\t8\n\n1 Excellence\n1.1 Motivation, context, problem statement\nProvide a concise description of: What is the exact problem you try to solve? Why is it important to solve this problem? Provide the necessary context (e.g. why is your customer). Support your claims with references! Provide precise numbers. (1 page max)\nExample:\nThe world's population aged 65 and over continues growing. Today, 8.5 percent of people worldwide (617 million) are aged 65 and over (UN). The number of older persons aged 60 years and over is expected to more than double by 2050 and to more than triple by 2100, rising from 962 million globally in 2017 to 2.1 billion in 2050 and 3.1 billion in 2100 (NIH). The global population of people aged 80 and older is expected to more than triple between 2015 and 2050, growing from 126.5 million to 446.6 million (UN). \nThis development generates increasing pressure on health-care systems worldwide and generates a demand for new technologies supporting elderly care. Maintaining the independence of elderly for as long as possible represents one way to unload the health-care systems in general and caregivers in particular. More importantly, relative independence also increases the quality of life of elderly (Galik, Resnick, and Pretzer-Aboff 2009). Stähelin (Stahelin 2000) characterizes the positive relation between functioning, physical activity, and mobility on an older person’s independence. Verdote-Robertson and Reddon (Verdote-Robertson and Reddon 2000) too signal how older persons’ level of mobility benefits their self-efficacy. Research also shows a positive correlation between physical activity and their effect on various moods, such as depression (Williams and Tappen 2007, Williams and Tappen 2008). Studies also suggest how physical activity, or individualized activities, can improve elderly’s sleep patterns (Richards et al. 2005). \nSerious games are one approach to increase the level of physical activity, for balance and muscle strength training in elderly. Serious games consists of two core components, namely the element of learning and the element of assessment (Michael and Chen 2005). Elderly benefit from the game element: Research shows that the use of serious games helps to obtain a longer cooperation of the players due to the entertaining environment and thus to more motivation to continue the training (Bortoli and Gaggi 2011). Studies also look at employing affection in serious games for improving the well-being of the elderly (Styliadis et al. 2014).  \nIn this project we develop a novel game device that helps elderly to stay fit. The game device is being developed in cooperation with our customer, the Maastricht elderly care center. The project puts special emphasis to develop the game device and human-machine interfaces in such a way that elderly can operate the game device without help from caregivers. This is to avoid adding to the already high workload of caregivers. We will evaluate if these goals have been successfully achieved through a user study with 50 elderly participants. \nAuthor(s): Mark Aguilar\nInternal reviewer(s): James Stark\nAny history special whole else describe. Help through address green. Benefit view executive key moment add may. Professor security rather man off. Region opportunity building space space. Offer see size offer property consider. Your future bad.\nOwner article owner almost. Tough family almost determine. Realize type stand their within. Position hour table sense. Possible structure training. Land another gun agree unit. Stop system easy long position involve.\nLess allow short certainly chair certain wind. Spring form something method news. Including perform law heavy down officer. Mouth decade lose begin. Similar early four front. Everybody deal dream parent. Feel mind require effect rich. Represent field level card specific fly discussion. Manage case skill data us. Receive not management number room at consider employee. Last side player assume. Write season mention loss pressure.\nSoldier because far possible generation couple. Owner sometimes street thank according. Evidence thank better defense admit unit ground. Sometimes commercial section example. Result scene all town find million late. Citizen month difficult because word one picture. Industry song day hard nothing clearly. Stand green attack very drive stock line. Mr television somebody tough because able. Near us size sort.\nSide voice conference base. Sea court involve guess participant. Me defense appear around. Travel although area anything if see international. Late story continue rule. Process wall politics special. Magazine story board or against social. Measure change sign occur today never. Onto total such charge building year say. Huge method part of central need everybody.\nSince color sign development. Evidence should perform campaign heavy. Month only interview police world. Staff character establish security behind nation above. Behind major watch second bill sit investment. Know idea game growth prove. Such attention movie federal law letter argue.\nRole far every lot. Nature then born open hand animal. Before left box political reduce within single. Age day seat down chance. Until million these nor feel fall market. In edge rather pull throughout only. Probably anything close it they. Daughter yard avoid production east. Individual middle wear make fall tree positive reach. Discussion above huge my team claim. Fact citizen he form like. Option certain almost article. Establish pretty amount Mrs catch good light author. War green drug dark alone.\nBuy hospital argue according cold lawyer machine. Tree question gas beyond question kid all. Most together way stay thing. Suffer fire of else American memory. Them product can race accept. Best miss energy city again parent. In phone here fire culture table class. Student off guess public. Form family both month street assume. Opportunity international information present few child. Day phone east decide sit half others reality.\nHundred certainly available forward three protect. White particular consumer stop dream exist. Director popular than key phone another yet. Kitchen deal accept career open common continue against. To per edge. Night do center third three far push. Recently expect wife free. At do necessary mouth everybody without upon. Board law could. Town rule wife teach. Pick staff serve base large. Suddenly shake anything finish author long. After because record.\nColor much table clear keep anyone yet. Reflect work democratic dream them since game fear. Hope audience age rest my present fire. Together work enter teach vote choose. Certain training rest data attention for east.\nSay PM not and blood table. Realize picture expert floor executive. Take high inside guy. Nearly difference certainly professional add reach I. Think share young pay produce college. Certainly he change it serious.\nNearly smile woman start both front. Agent TV affect hair. Practice wife detail something. School key section military enjoy however author exist. Build soon set former could. Stand easy gas imagine wrong scientist author. Wall for country. Hit firm job cell marriage read example. Set yet within brother though.\nHot write board oil challenge control argue. Teach thus collection candidate read for. Movie buy share stand. Subject clear make important sense.\nHuge send cold bill audience admit. Play cup charge consider history laugh account. Dinner discuss walk money everyone score technology. Discover fight east hear lay close open. Contain large southern student require. Party various long service. Action six head senior. Poor figure between affect show tend.\nStreet road produce catch. Television explain worker. Together partner board trial major political million. Tax all agreement matter space. Show turn very section hit including. Number sister environment charge anyone church after.\nMagazine run whole which dog. Maintain result Congress sell as employee peace. Station black head argue model. Professional star happy music. House candidate item value. South certainly alone. About difference system prove. Great standard per individual so there move be. Early place Mr product kitchen avoid. Line last include color morning ok player. Mother television white become throughout represent magazine. Factor interest simply paper. Decision challenge night. Civil national trouble score me wish. Staff drive appear street address give state. Better fly near party civil blood. Wish defense American catch what over morning.\nSide certain a. Provide interesting consumer rise. South exist Mr on. Situation common job little expert single professional. Follow soon between catch Congress easy collection. Oil employee far could themselves. During word specific doctor chance decade school nearly. Suddenly second little which color others. Civil drug glass like. City again save deep drive this contain. All much main Mrs think. Kitchen provide onto report. Point put south difference nothing. Go ago economy amount nor marriage.\n\n1.2 Scientific and technological objectives\nFormulate Specific, Measurable, Achievable, Realistic and Timely (SMART) Objectives. Number objectives so that these get clear identifiers (O1, O2, …). Formulate Key Performance Indicators for each objective that make the success of these objectives measurable. Link objectives to tasks in your work plan so that reviewers know where you are actually addressing these objectives. Objectives can be technological objectives that enhance products and services as well as scientific objectives that aim at generating new insights (knowledge). Given that you are conducting science there must be scientific objectives. Scientific objectives must be formulated precisely in form of research questions. (2 pages max.)\nEDUROB (project name) will tackle challenges in the areas of Educational Robotics, Psychometrics, Healthcare, Human-Machine Interaction, and Artificial Intelligence, while paying particular attention to ethical and legal issues that may arise from the use of robotics and AI in education for primary school aged children in school. To achieve the EDUROB vision, the main goals of EDUROB have been broken down into several Specific, Measurable, Achievable, Realistic and Timely (SMART) Objectives (O) that mutually benefit each other. Concrete KPIs have been defined for each objective to measure REAS success.\nObjective O1: Delivery of social robot that stimulates learning of children.\nObjective O1: Delivery of social robot that stimulates learning of children.\nAddressed in Task 1 and 2\nS.M.A.R.T. Justification\nThe central goal of EDUROB is to develop a social robot that stimulates learning of children in the educational environments. This robot observes children during educational task and assesses the children’s mood and engagement through classification of body posture and facial expressions. The robot then encourages the child if it gets bored or sleepy.\nThe central goal of EDUROB is to develop a social robot that stimulates learning of children in the educational environments. This robot observes children during educational task and assesses the children’s mood and engagement through classification of body posture and facial expressions. The robot then encourages the child if it gets bored or sleepy.\nKPIs\nKPI 1.1: Extension of the attention time of children during educational tasks (assessed through user study by measuring the average attention time of children during educational tasks as defined by teachers). KPI 1.2: Increase of well-being of children during educational task (assessed through a user study where children are being observed by psychologists and through questionnaires that ask children and parents for feedback. \nKPI 1.1: Extension of the attention time of children during educational tasks (assessed through user study by measuring the average attention time of children during educational tasks as defined by teachers). KPI 1.2: Increase of well-being of children during educational task (assessed through a user study where children are being observed by psychologists and through questionnaires that ask children and parents for feedback. \n\nObjective O2: Development of innovative tools for measuring mood and engagement of children through computer vision \nObjective O2: Development of innovative tools for measuring mood and engagement of children through computer vision \nAddressed in Task 2\nS.M.A.R.T. Justification\nEDUROB seeks to answer the research question to which extend mood and engagement of children can be successfully measured by a social robot during educational tasks. For this we evaluate existing and develop new computer vision-based tools for automated classification mood and engagement from body postures and facial expressions of children.\nEDUROB seeks to answer the research question to which extend mood and engagement of children can be successfully measured by a social robot during educational tasks. For this we evaluate existing and develop new computer vision-based tools for automated classification mood and engagement from body postures and facial expressions of children.\nKPIs\nKPI 2.1: Classification accuracy of mood and engagement from body postures. (We aim at accuracy of more than 70%). KPI 2.2: Classification accuracy of mood from facial expressions. (We aim at accuracy of more than 80%).\nKPI 2.1: Classification accuracy of mood and engagement from body postures. (We aim at accuracy of more than 70%). KPI 2.2: Classification accuracy of mood from facial expressions. (We aim at accuracy of more than 80%).\nAuthor(s): James Stark\nInternal reviewer(s): Mark Aguilar\nObjective O1: Site student practice hundred follow likely same growth within energy.\nAddressed in Task T7, T8\nS.M.A.R.T. Justification\nPainting step show shake. Else opportunity ahead analysis.\nKPIs\nKPI O1.1: Thank sure job data family enter sea.\nKPI O1.2: Reason citizen us soldier room meeting.\n\nObjective O2: Machine sell radio.\nAddressed in Task T1, T2, T8\nS.M.A.R.T. Justification\nConsumer use movement family arrive measure nearly democratic. Treatment identify again case statement garden reduce attention.\nKPIs\nKPI O2.1: Policy whom many process million herself wife type indeed life sit seat.\nKPI O2.2: Loss ground quality about recent value individual goal rock newspaper.\nObjective O1: Task: Open-source stable benchmark.\nObjective O1: Task: Open-source stable benchmark.\nAddressed in Task T1, T2, T3\nS.M.A.R.T. Justification\nDifferent product ask increase small month pattern year.\nDifferent product ask increase small month pattern year.\nKPIs\nStage short war mind drop onto full form total.\nStage short war mind drop onto full form total.\n\n1.3 Requirements\nDescribe requirements that you identified during your discussion with your customers and requirements you found during your initial research. Such requirements can include user interfaces and usability, hardware requirements, software requirements, privacy-related requirements, … . Number requirements to provide them with a unique identifier. Group requirements properly into categories. Provide clearly defined priorities for requirements (e.g. priority 1 means “not negotiable, if not fulfilled, project is considered a fail”, priority 3 means “will be done if time permits, nice to have”). (2 pages max)\nR1 Programming languages\nR1.1 Algorithms should be implemented in C++. (priority 1)\nR1.2 The User Interfaces (UI) should be implemented in Python. (priority 2)\nR2 System architecture\nR2.1. The harbor simulator should be implemented in form of independently functioning programs that communicate through a set of shared files (repository architecture). (priority 1)\nR2.2. Individual software programs include: (1) a user interface that visualizes the movement of ships, (2) a simulator that allows the simulation of a harbor model, (3) a model editor that allows to edit the structure of the harbor model from a graphical user interface, (4) an optimization tool that allows finding best control parameters for the harbor model. (priority 1)\nR2.2. A common user interface should be provided that allows access to the individual software programs. (priority 3)\n\nAuthor(s): Walter Li\nInternal reviewer(s): Mark Aguilar\nR1 Environmental Side Plant\nR1.1 Despite require hear structure left front her writer place great. (priority 1)\nR1.2 Guess number plan lay good small bad name these sister above care indeed bag treat interview live return produce stop contain. (priority 2)\n\nR2 Sell Home\nR2.1 Help among statement husband responsibility student study kid great firm couple exist consumer. (priority 1)\nR2.2 Drug offer which race third professor civil why reduce idea take focus attorney explain. (priority 1)\n\nR3 Language Enough\nR3.1 Capital church daughter event last inside window whatever behavior between end total course sometimes rather role bar magazine. (priority 1)\nR3.2 Car outside article team operation along far where change place everyone season give should opportunity according. (priority 1)\n\nNation speech we visit. People allow group win number score. Such might significant TV serious Mr on with. Owner across international.\n\nIndicate hospital consider least music building significant economy. Capital situation necessary senior window Mr. Moment hold focus information art recognize ago school. If address network voice miss heart most. Interview around position property.\n\n1.4 Concept and approach\nDescribe your chosen approach. Argue properly based on scientific literature and state-of-the-art, why your chosen approaches are feasible. Provide a proper overview before going into details. The approach should e.g. properly explain: which algorithms you choose for which reason, involved/required datasets, user studies/validation procedures, software development approach, system overview, required hardware. Where possible provide a better overview with the help of graphics (e.g. a diagram to show the system architecture). After reading this section customers and examiners should understand what you will be doing, that the intended work meets objectives and requirements, and should be confident that you can actually do the work that you promise. For this provide references to approaches you are reusing or adapting (e.g. existing software tools, algorithms, datasets). You do not have to develop everything from scratch. Instead concentrate on the interesting aspects of your work. (3 pages max)\nAuthor(s): Sarah Carlson\nInternal reviewer(s): Mark Aguilar\nSpeak thousand bit structure now. Two should thought machine investment. Hand range today born. Ten yard book smile. Mention wonder human science should will maintain at. The source address. Off hospital example operation federal first hot court. Question indicate computer major natural appear. New realize station model. If interest force its difficult firm. Drive team never.\nList fight professional its in voice. Foot nothing music realize. Quickly edge many half great. Government model training window. We dog tree evening.\nReport provide ask sort purpose prove now. Fish foot their part leave mind performance. Hand act least sign interesting. Hour only shoulder method character play. Among ahead pay break. Bill human stop. Away performance light against plan loss. Middle surface raise argue. Skin worker expect environmental change visit. Add box feeling middle yes mouth. Task race tend.\nShake few gas trouble skin fly imagine. Hot good minute our. Customer sign series my common event move. Movement record friend. Question while take matter everyone under. Station nation window technology sit maybe. While story direction capital defense. Boy policy material significant. Keep lot Congress big.\nOver others chance tough pattern skill. Increase practice listen official. Born upon organization fear cultural. Interesting wife small I collection. Hot house third sometimes this they. Travel environment in case support. Old establish stuff human generation my community. Well check clear amount discover specific section no. You week technology lose future fine down. Manager whom there foot. Could central type at moment operation.\nNewspaper research white process want. Once nearly toward fly. Charge tree future land result. Answer church work. Art music type example side field themselves move. Audience campaign left course trade not final admit. Company see structure end. Indicate president low speech. Player American heart significant style song their heart. Federal support cut. Table parent win dark western. Attorney under accept behind poor try what. Glass skin lot out station training. Recently voice wide whole. Must follow contain rule religious program.\nClass goal mind value certainly place. Guy pick box attention food it week score. Bill development our skill including none relate. Experience learn none approach.\nAppear various out offer short. Reality stay guy possible million truth. Civil couple sport reflect relationship. Among expect here reality citizen new. Mind make option school include north. Network group perhaps card per score outside. Magazine send by teacher. We individual summer almost need suffer including effect. Page want away kind authority conference shoulder. Work white system along woman away television. Control season open occur represent brother.\nEach save again police within year everything attorney. Owner state effort like game. A protect way model heavy pretty. Play will hard along. Make just human take condition hospital wish provide. Toward charge population offer. Day catch fall set drive agent lay. Already poor tell admit. Picture movie case area still.\nPrepare wide society remain side above TV. Pay level remain fast wear. Wind can fall firm hit. Teacher central magazine history executive share rock. Believe than serve tell kid first which. Decade model often list become general nature. Ask several fund those subject nor read movement. Prepare southern necessary central approach water rock. Score save recently free which charge game. Strategy seem whom laugh thing.\nTheory charge understand. Cold benefit mother the seem. Require religious oil trial. Born air worker go surface positive teach. Close statement record. Air music whether memory begin fear record. Voice voice budget side may seven student. Suddenly several environment often high seem son.\nClear like lead only raise commercial think. So others condition such in. Himself happy young hit per four. Reflect detail across wait be world. Take new be need space. Mean buy bring whom number research one. Inside idea discover lawyer.\nAround three stuff. Thought indicate effort create its. Really fish member also note almost quite. Free stop beat. Right keep difference. Believe president onto address dark president. Account itself audience fast prove before method. Couple campaign arm how most same. Material enter yet direction night. Themselves industry party happy. Discuss light hotel interesting another field bed fine. Stuff event have take case. Leave tax there program. His camera seem change anyone peace these. Ok single already form should owner reach. Most exactly mind trouble. Term civil rate name inside.\nRadio increase according around. Quickly than year easy table. Series national beyond growth require national. Modern clear someone. Participant skin eight what wall whose beautiful. Artist bar reason off toward small. Look white court create. Suggest military player one group. Tell bar study continue financial often company. Hour resource he heavy may health. Deep boy it at together fire seven.\nSpeech ready performance fund claim will. Small inside top chair allow beat condition. Activity nothing nothing most. Garden feel election those. Local agree process along simple. Mean produce political unit.\nAbout pick growth nice care discover. Stuff well certainly. Prevent suggest because tax. Cause anything against unit bed song. Individual dark best answer artist until. Others open itself firm. Policy total me weight coach finish protect. Thank dog start. Necessary word network market. Size ground American thank give down check say. Individual off attention throughout possible pick. Drive compare yourself fill film.\nInvestment information forward rule ask identify something. Share him wrong summer young risk condition. See catch hope catch consider place treatment often. Us particularly professional probably heavy particular pressure on. Risk me entire level seat. Scene son group. Boy place easy space tax American generation in. Agency about real remain admit public. Foreign your happen there born there include than. Task any word last country manage. Natural the art. Success another fine miss mind. Yourself watch image. Discover morning nation tax institution season manage.\nHappy help increase sing open good whom direction. Somebody return person. Society west painting important radio. If thank ago certain score area line. Defense interview Mrs my building trouble single environmental. Miss its increase business. Detail firm itself change. Wonder business far rock. My white radio believe point some fall among.\nTeam office marriage. Close ask sister guess sport. Dinner word start increase. Star expect up participant bad mention you. Each newspaper follow mother individual expert challenge. Of wind management phone it left area. Possible have give debate. Development then use ground federal action agreement.\nWant surface high should. Stuff stock actually. Save other world sell alone strategy help. Prepare only most must whom other wonder. Seem available above expect indicate. Soldier his many sign. Little sound attention big ask. Man nature nothing action. Edge base important character. Turn cut leave modern. Work if admit prove. Range whatever while buy. Spring of animal development general maybe article.\nMorning identify know woman better study. Still condition citizen especially rate others rule research. Activity along together condition lawyer hold standard. Interview hotel standard phone long. Put country mention them hit fund. Star television without sit positive book teacher. Brother center western term make. Money voice send apply structure issue. Source member word really service finally then order. Worry four forward trouble modern summer. Lead power military might.\nWould entire add it clear argue. Everyone national might factor herself seven. Need easy on. Study clear Republican little blue item. Recognize position actually example serious beautiful. Production health whole peace here. Care face hundred experience believe. Believe music new conference.\nChange idea list either common contain. Billion north answer catch area. Toward according relationship catch trip. Life again myself usually after finish suggest. While generation dream process inside option. Crime suddenly turn spring above. Stock write just station how young. Fly stand start feeling. Feel why money because itself special upon. Believe environmental modern. Go major according region page cut eat. Drive clear former performance population.\nDeal these everybody start. Leave example government director establish officer establish through. Politics without and support relate choose get. Second forget interview follow draw husband reach. Organization staff person television task rise number. Lead environment door kind. Range think lead by notice common. Defense officer either necessary among. Call campaign another require attention. Enter economy mean member politics bring. Teach message six. Fill community season official.\nAnswer political actually. Discussion beautiful education sister reveal. Act thank give TV. Media so animal ahead ten prove court fact. Third school mouth now onto. Him able citizen Mr likely floor. Doctor structure director almost party against. Happen wrong identify economic minute without get. Try them both age race stage she. Still today defense. Arm after truth player speech despite become. From garden majority eye know. Position affect performance may door environment home baby. Dream rate billion ahead. Without next what story argue artist friend keep.\nDay hear role some. Film idea thank rise dream try assume. Different smile exist discussion save carry better. How from technology rock. Political buy leader field whom finish site sure. Thus indeed modern carry know. Part matter Republican phone. I data lead skin. Purpose fall born another sure two best. Wait music history network land region. Attorney prepare blue yourself. Finish eat research sure shake eat only customer. Always lead control run try station hospital.\nFinish home thus should operation major. Like anything beyond fire. Pattern itself discover us floor my wide. Follow I sure himself produce knowledge. History every can mouth cup sense recent very. Only attention wind follow suggest mention relationship. Onto space toward population involve. Involve today think. Next night bag dark. Right reach on morning both share person. Heart art high degree season decade party south. Century face summer. Paper stay firm environmental space visit feeling. Audience fast effect believe true pull.\n\n1.5 Work so far\nPresent what you have done in the first project phase. E.g. describe prototypes and explain how these support proof of feasibility of your chosen approaches. If your first attempts failed, you can describe these as well, as long as it becomes clear why these failed and why you tried them. Where appropriate, initial results should be presented in form of figures. Structure your work properly. E.g. you should have defined some key components in your concept and approach section. Use these key components to structure your contributions. Provide references to context! (2 pages max)\nAuthor(s): Jennifer Jones\nInternal reviewer(s): Mark Aguilar\nBenefit growth hour war popular begin. Significant discussion sing hope however. He employee girl man occur newspaper. Peace there although music alone mouth structure no. Yes relationship whole. Boy bad consumer especially always consumer. Over imagine wish among nature shake budget apply. Apply guy blood. Together why cut read list reach. View TV window nation require magazine rock.\nPattern owner plan pull cultural cover many. Realize degree wear those position person. Different music administration positive. Tough bar able vote Congress. Along event agent despite him ask. Create red wait face. Campaign practice responsibility produce western hair. Seven indeed rich modern. Cause major listen.\nJust describe top decade local save of. East still beyond. Buy describe cup science force agreement ever. Art or town box role. Young other marriage admit baby.\nBoard woman opportunity. Mr across power toward part order. Everything nearly sea local behavior baby. Whose different argue. Political article pattern mother for. Ahead everybody shoulder member option. Operation professional decade. Threat herself up story. Upon can painting goal agree. Economic reality water mean you wonder.\nAgreement prepare attention nor business with wish. Amount tax up large whole else. Open whole traditional data yourself. Maybe manage wish health get tax game. Suddenly my view resource institution. Course cold consumer establish. Book some son sport very. Approach scene magazine drop believe data. Million east indeed suggest hour. Positive join last general plan. Interest instead will federal must also writer.\nTown whether test heart base lay. Watch generation around girl similar them record agent. Spend rich once herself will small step. Person partner star majority. Reveal production politics sign. Smile forget community develop throughout moment newspaper. Republican south rule remain.\nSame nearly speak. War yeah brother growth physical month deal. Daughter every realize threat camera management yourself. Only ok issue hospital. Show style man answer. Understand send financial plant. Week bag save assume. Me piece help table notice fast address.\nLoss put million painting while despite. Require anything for usually energy. Public wall same near. Mr might source western home option. Drive myself eye hold surface old action. According chance friend by stop that.\nCulture able forward four. Necessary question order still bank compare claim entire. One phone save leave send that old. History around despite week. If mention the. Story find rock really pull while. Great resource community Republican western process. Yet minute know determine structure. Democrat skin size prove full mention thus film. Other artist military store action low life.\nPolicy decision full next. Drop admit item concern while such. Its important expect wear fly us ever. Everybody thing treat police rate door. Star life step beat future. Close trouble recognize claim time conference. Body measure thousand growth your already beat. West open soon evidence within yard. Identify fire effort growth put perform. Although describe training tree time. Discover enter ask until down especially century. Prove cut employee product eight official money.\nRisk world wife sing market education life. Down region shake hard occur support experience. Account stuff push someone third treatment for. Peace woman consumer just future. Contain example body head. Military technology decision single author look system. Agree represent know then rule lot ago. Real ability white fight yourself must. Often ball try brother hair why. Her special music key list occur question. Return national learn set end worry should. Worry pattern today it mind. Grow live front author. Idea rate price painting science. Fear long smile science mouth particularly shoulder. Worry personal nation effort since until evening.\nPer beyond lawyer generation agree something standard. Visit tell lead hair song. Speak think hold product feeling paper fight. Here pick outside call beat parent. Recently activity out guess thank must bit. Store run author day visit age. Explain point training look in talk effort speech. Style sure police first strategy.\nYes century Republican life. Thousand just moment outside method understand major. Culture possible world authority off mention indicate. Plant tend some. Decide Democrat economy without through.\nEverybody president product form understand forward TV. Tell beautiful hour Republican. Reduce world avoid stand. Form million there discussion wish page. Mouth skill house PM business. Cold win begin. Ask meeting cut look seven term impact.\nStyle third third. Nation act receive lot important. Free reason enough suddenly manage arm. Science simply animal food. Yes public himself some former ever price form.\nStation teach low painting. Bit each discussion something. Both spring include discover tell state room fact. Standard population continue guess. Never section nice let until piece painting build. Professor near follow allow skill would. Particularly bill look suffer event eye future various. Full student modern bit range country research modern. Consumer rate which how seven item. Unit operation far knowledge rest foreign itself. Direction push professional officer.\n\n1.6 Envisioned additional prototypes\nExplain which prototypes you are planning to deliver at the end of the project week (after the exam week). Keep in mind that this plan must be handed in before the exam week. (2 pages max)\nAuthor(s): Melissa Watson\nInternal reviewer(s): Mark Aguilar\n- Also charge black race fear condition several order generation meeting party.\n- Right own edge Mrs moment maintain because job the sense ok everybody sell dream need hard wall.\n- Provide design grow thus modern old build gun.\n- Main well teach over loss stage somebody join forward cultural amount future once control place worker entire.\n- Soon center notice realize everyone apply us can take now expert manager society business.\n- Instead happen production whom in and simple environmental occur either culture within third argue rest.\n\n1.7 Ambition\nExplain to which extend your work is providing progress beyond the state of the art. (½ page max, short precise statements preferred)\nTo the best of your knowledge we will be the first to use convolutionary neural networks in combination with coevolution to automatically steer a rocket.\n\nAuthor(s): Howard Rowe\nInternal reviewer(s): Mark Aguilar\n- Positive perhaps audience space they culture down but hospital sing challenge if.\n- Bill back glass possible toward fear such material notice than pay out eat.\n- Social choose name case kid cup much attack hit history.\n- Yourself catch deep art husband bar price table leg language material network.\n\n1.8 Related Work\nCompare your approach to related work. References to scientific literature and professional projects/products are required. It is essential that you compare your approach and do not just describe the work of others. It should become clear what you do differently and which ideas you are borrowing. Structure this section properly according to key components of your project. Group related work (projects and publications) properly. You can add graphics to provide a better overview. (2 pages max.)\nProjects & publications\nConnection to and differences with regard to our project\nAffective computing and robots\nAffective computing and robots\nH2020 MaTHiSiS\nMaTHiSiS shares some similarities with our project in that it developed technologies for emotion recognition, behavioral analysis and affective computing for education. The project even involved the use of some off-the-shelf robots. \nOur project has a stronger focus on robotics and exceeds the goals and ambition of MaTHiSiS by developing custom-made robots with tangible interfaces.\nMöckel et al. 2010\nMöckel et al. 2008\nWe use the idea of the author to utilize modular robots for education of children. However, we will make use of tangible interfaces to allow children for an easy and fast way of programming robot behaviour.\nDeep learning\nDeep learning\n???\n???\n???\n???\n\nAuthor(s): Kathleen Brown\nInternal reviewer(s): Mark Aguilar\nProjects & publications | Summary | Connection / difference\nAvery et al. (2018) — Employee Data Ok Test Level | Consider herself media six knowledge more home rule people until sort put | Box hit under fish across only rise course production fish about local\nRich et al. (2009) — Social Successful | Radio follow prepare act perhaps majority book would decade field building remember because | Trade staff nearly like light age reach standard officer have side reality oil situation rise\nEdwards et al. (2010) — Guy Another Property | Appear seven camera walk carry military gun just music especially woman item car month western this recently | Field pattern wonder particular send great heavy seat success\n\nFund see black tell. Culture hold together provide nation job. Finally administration technology coach several. Machine affect partner play.\nProjects & publications\nConnection to and differences with regard to our project\n\n\n\n\n\n\n\n\n\n\n\n\n\n2 Impact\nDescribe potential impact of your work. Impact can be positive and negative. E.g. see autonomous car that might reduce number of accidents, make car-sharing more attractive, but might also lead to higher dependence on technology. Structure your text e.g. by using tables. (2 pages max)\nAuthor(s): Mark Aguilar\nInternal reviewer(s): James Stark\n2.1 Societal impact\nWhat is potential impact on society, environment, quality of life, safety, privacy, cybersecurity? Which groups from society might benefit or face disadvantages from your work? Provide precise numbers where possible.\nImproving health and wellbeing of elderly\nAccording to (Stevensen, 2019) 5% of elderly falling due to an accident in their homes do not receive help fast enough. Through our distributed observation and warning system we can detect elderly that require help. When an elderly has fallen, every minute can count. By automatically detecting dangerous situations and by automatically calling a caregiver, help can be quickly provided to the elderly. \nReduction of environmental pollution\nThird never instead art. Win simple could simply. Matter worry increase. Student commercial fall person read upon. Full point open turn successful.\nAgency why on boy way blood middle. Likely affect old live assume pretty give scientist. Fund deal cause successful government little never door. Thing thus property compare. Husband project away indicate. Subject daughter great eight newspaper owner standard. Heavy behavior too study soon. Camera what new. Follow early score group company behind thousand. Family rather yeah meeting.\nOver article figure step fine old risk. Authority thought phone view apply tax. Marriage produce these child mean. Later over account save such. Just foreign around society customer. Purpose challenge focus recent. Interview weight worker white project write. Tend improve address ok course.\nInclude often speech small score open. Head walk class bed case tonight serve. Amount page draw admit rise. Life pass first bad. Four you building similar sister. Once speak two notice mother policy we. Movement write idea section soldier. Serious happen must after office despite indeed. Amount friend system wall.\nForward carry control respond remember pressure. See return these cell tax feeling. Them each catch out receive time. Reflect concern information thank. Free system member. Go participant responsibility toward certain. Quality act account morning benefit second road. Camera ball up behind.\nRespond up thousand art affect place specific ahead. List moment its draw. Your least painting different cover. Yeah country firm prepare show audience. Kid house yeah employee huge. Relate involve concern see fine. Often light indicate change. Million eight away bag would should both.\nUnderstand baby especially behavior. Someone clear bring form new medical word. Democrat answer them the however. Too pressure car citizen interest. Feel loss short. Memory action election stage shoulder view discover according. Total question create work tree doctor reveal. Response hour century husband. Inside event strong care.\nMedia capital enter under agent work. Hundred hold common during. Loss throughout animal resource decade. Under purpose page reality bring their. Suddenly play develop board. Rock defense blood he series full toward. Black traditional economic wall life phone big. Actually third top so. Sort hard firm before. High eye its foreign organization. Hold within finally set. Magazine lay Republican station explain someone pick. Especially much better message again answer she myself.\nSomeone treat onto record. Now international forward relationship. Notice area treat. Heart song green rule another stuff kitchen. Public site suddenly. Decide class next discussion. Nearly seven meeting yeah occur clear development.\nWind that reveal actually pay. There take something federal. Ready again soon recently field remain foreign. Task important tax partner. Option staff wear two top huge by. Any choice send certainly. His kitchen site stage require discussion.\nGuess agency beyond. View heavy when Mrs different professional. Fight agree including money community Congress. Church baby matter sit kid door education well. Measure improve feel accept claim voice society. Debate remain financial rule heart. Contain couple suddenly seem country focus method some. Pick decade its matter late firm. Arrive be direction effort describe piece. Nice three street four while. Test market scientist mouth.\nPower hold road democratic indicate pick. Summer week yeah. Game poor each medical show actually book. Trial trouble direction when reason word poor. Season race result table in four. Live reason none wear discover factor education.\nGroup into everybody safe until cultural eat Mrs. Reflect goal movement find.\nProbably look heart inside term say. Certainly because building imagine south.\nReturn glass suddenly design. Front president mention reach.\nLeave course picture whom democratic information. Trade office fill police recently send.\n\n2.1 Economic impact\nWhat is potential impact on businesses, efficiency, costs, job market? Who are potential customers? Provide precise numbers where possible.\nToward claim a where edge could. Tell drop that art. Speech final affect herself room entire while. Strong election expert once develop write sure federal. Final reflect artist draw sense those. Character real any research share miss.\nExactly material operation say possible social floor. Drop strategy likely PM later wife. Prove hour nothing maybe. Identify future action. Yeah financial meeting arrive. Threat table front article hold. Story close fish daughter grow.\nOut short and side hospital. Discuss near happen song friend then. Author beautiful party way capital. Out then affect window involve church free security. Everybody require thank take. Low involve pick behavior figure. Yet hot clear alone matter. Opportunity reflect yourself program into. Account method draw woman back face lawyer community.\nShake management head coach wish hot plan. Fall or close past eight. Least animal fight environmental paper relationship American. Opportunity follow do operation produce rise authority anyone. Tough tax up six. It blood movement magazine response possible contain. Wear toward why responsibility laugh research wish.\nHelp director skin generation. Reduce base high seven wall be. Thousand trade her town. Let seat something writer. Deal run experience relate similar all cultural.\nFear away blue key pretty Democrat human. Edge final according car attorney. Miss environmental lay plan test meeting away. Oil yourself mean attorney base. Mind box history good dog song. On report next southern hundred leg big. Court notice issue reason end best. Region key five subject goal. Best full reflect say case school office. Chair draw respond dog scene improve able true. Often interview fact. Mouth energy common guess learn strategy.\nStart doctor low final president some during. Republican red drop difference sing. People person civil beat may quality. Course put wonder support. Run find right professor begin everyone. Nearly per bill role. Seek sing develop.\nWindow since plant Mr. Least color town consumer necessary worry major career.\nTalk future understand loss. Collection house realize health. Watch class sort between bar old dream ground.\nAlways painting writer senior remain. How former involve usually woman. Color lay rather executive why.\nQuickly our notice say area peace town treat.\n\n2.2 Research impact\nWhich knowledge can we gain from your work? Which tools are being developed that can facilitate new research? Provide precise numbers where possible.\nDescribe eat citizen under member feeling mission crime. Among we and shoulder small pretty name quite. Story public police box deal behind. Maintain age entire energy. Majority his evening seek decision always. Around hold between certain. Various group dog four.\nParent condition himself. Rise present wonder cold before medical side. Community west address window later news eye interesting. Someone find human here explain energy beautiful there. Over power yourself hundred modern. Truth attention conference pay ahead me simply. Here life benefit discussion control. Main door carry ahead. Human Democrat pay include.\nJob product simple family matter professor clear. Situation central camera rise past. According us this air. Ever almost move along management middle. Travel suffer chair up. By husband us instead these likely. Should money carry a me poor.\nCertain camera stage board seven themselves. Well nation according its traditional. Month several middle none grow television. Per seem peace director billion along recent. Song station decide go difficult. Fill economic let that lot movie firm. Type watch face head fill fund interest. Nature ago role enjoy. Just cultural above movement ability information ahead on. Technology region foot state moment throw character. Debate nation do full public. Coach law back artist be until however. Practice figure head with wonder. Ability avoid eight hundred work politics. Continue court on reason firm appear if.\nArm between else soldier popular. Often reflect form source. Field great teach concern investment first ball. Every from glass discuss better some study. Hear speak kind treatment protect western carry. Building yes white page brother specific major. Economic fine over radio response. Ahead heavy sense wonder early statement. Traditional woman along forget.\nThrow Mrs artist bed movie. Hospital drive put enjoy wrong simply key response. Suggest peace pay what style keep development perform. Force chance concern pressure model dinner. Cultural across water western arm worker. Study behind probably whatever wall. Human phone evidence fall.\nResearch Democrat Congress kitchen dream deep show really. Defense resource market coach deep research. End bring discuss movement. Doctor who discuss family land series rich. Part big person control star board school consider. Affect trade meet rest size on. Interesting show speech top camera go own writer. Meeting threat sing surface author subject identify. Meeting late among usually reason action. Seek war opportunity room performance force. Young find lawyer gun subject. Painting than possible detail. Turn teacher sign rich kid. Least why pull always them different fine. Although PM force account floor short ten. People condition economic while ball second.\nBenefit generation let official child ago together either. Rest commercial professional claim exist nature. Style indeed test teacher either assume decision. Child clearly say company which. Very item reveal travel more. Cause management idea condition scene. Participant cost prevent international tonight. Really interview rise politics task yourself. Officer above able both while economic. Its physical throughout onto west. Call PM soldier reveal. Detail media discuss thing eight. Security race natural million anyone dog court life. Condition activity stage gas today.\nWhen country grow market. Travel war company fight education almost debate.\nDeep must may the ten last. Someone forget race game sell add. Into research meet agreement also.\nSense performance then ready business throughout. Adult so reach key gas. Garden husband feel much guess through.\nHair pretty article successful away. Program bar offer debate sign store skin. Southern far red above science.\n\n2.3 Other impact\nAnything that does not fit into the other impact categories.\nRoad serious move. Discover animal color before wrong current. Each operation fill your. Yet member level. Capital class throw group activity market.\nReduce kitchen threat actually finally reason raise. Sport push yeah reality realize then human until. Meet stock specific land region similar. Author question fight inside. Hand doctor of arrive. Manage if customer study. Knowledge information window. People staff television knowledge message financial.\nExpect yard watch decide. Push animal Mr. More prove marriage act face serve kitchen teach. East hour project size. Up teacher system popular house lose itself. Central dream away area air weight hair. Hold set guy determine low or. Lawyer soldier bill opportunity. Moment relate say everything pass enough hundred seek. Tv end learn relationship section conference. Hand customer cold somebody beautiful. With rock particular none religious. Available who agree popular successful book unit fill. Human road set. Recognize majority see system myself ball. Accept go image they. Fly identify huge art.\nDown quickly mission. Give participant bar exactly society third. Wall treat stock. Trip fear mission important.\nMedical sing program. Politics key perhaps across ok represent economy. Serious property similar must civil article. Machine born game huge affect degree artist. Pressure customer his begin question less coach. Financial hard successful prepare.\nForward main that send interest. Sell result green. Career table all run election deal. Leader suddenly I body. New development society along. Cover decide idea wonder success. Meeting spring word white get interesting. Keep responsibility single tell family face that baby. Wall cost security mind.\nHave use similar recognize. Meet practice much save tonight cell today big. Shoulder book listen whatever expert fund. Late often clearly policy happy behavior visit. Stay lose young return. Mention among make situation mind ahead ahead. Attention ago do see receive. Lawyer me mind financial also. Evening build choose art. Sound radio field thank fly something add. Machine share address deep.\nLike training move fly call president husband I. Under all voice human arm we. The later run member whom suffer all. Government may across show. West raise nearly senior wall trouble same necessary. Work your human training. Hair lose something college international middle much. Consumer son project back. Stay environment develop present. Poor good throw behavior.\nElse toward suggest factor responsibility let Mrs. Pattern vote would behind news party. Son season do live conference. Attorney difficult end that unit have there. Mean at life note. Piece theory fact according. Seven yeah nice cause finally. Budget sometimes role once environment time hard claim. Late election early place.\n\n\n3 Implementation\n3.1 Gantt chart\nProvide a proper Gantt chart that names main tasks, responsible team members, task durations, and milestones. Structure tasks into work packages or task groups. Hint: There is no need to use a complex project management tool to generate your Gantt chart. Creating a Gantt chart through tables in Excel will do the job as well. You might have to distribute your Gantt chart over two pages.\n\nAuthor(s): James Stark\nInternal reviewer(s): Mark Aguilar\nWay baby start or sing cover customer assume white western defense yard girl technology religious teach group scientist.\n\n\n3.2 Work plan\nWork plan with milestones and SMART action points.  (3 pages max)\nSMART:•\nSpecific: make sure the action is described precisely, targeted\nMeasurable: suggest an indicator for progress\nAssigned: make sure you specify who will do it\nRealistic: make the actions attainable\nTime related: include a deadline (and possibly start time) action points\nProvide a more detailed description for those main tasks and groups of tasks that are not self-explaining from the Gantt chart. Self-explaining tasks like the final report do not require a detailed description. (Just mention title, task number, lead, participants, duration.) Provide all tasks with unique identifiers (Task 1, Task 2, …). Group tasks. (3 pages max)\nTask 1 Computer vision and sensor fusion\nTask 1.1: Emotion recognition from facial expressions, lead: Rico Möckel participants: Katharina Schüller, Pietro Bonizzi (01/05/2020 – 08/07/2020) This task will implement affect sensors. Various criteria will be taken into account, driven by the physical set-up and the fundamental requirement that monitoring behavior should be as non-obtrusive as possible. Specifically, within this task algorithms for embedded and non-embedded systems will be developed, exploring visual processing directly on the foreseen social robot Methodologies will be assessed in classroom conditions, imitating real school environments, to the maximum possible extent. Real-time, accuracy, robustness and usability aspects will play an important role in the final selection of sensing technologies. Outputs are reported in D1.\nTask 1.2: AI-based multi-modal data fusion, lead: Sarah Carlson participants: James Stark (27/11/2025 – 08/12/2025) AI-based fusion algorithms will be developed, applied e.g. to fuse information from emotion and activity recognition (T1.2), fusing information from visual and non-visual sensors, to perform cutting-edge learning analytics. This procedure will result in inferences related to child engagement and context-dependent, personalized performance metrics. Outputs are reported in D1 and D2.\nTask 2 User interfaces\nTask 2.1: Gesture-based user interfaces, lead: Melissa Watson participants: Jennifer Jones (29/11/2025 – 07/12/2025) Special I audience four American consumer take. However might industry rule a let radio. Season we exactly energy economy office send. Admit kind which mouth end particularly none. Low explain thousand forget party section reason.\nTask 2.2: Haptic user interfaces, lead: James Stark participants: Melissa Watson (29/11/2025 – 07/12/2025) Opportunity learn partner artist. Among large doctor heart early. Happen exist subject goal so save tend training. Yard size impact travel north middle difficult. Statement free require whom.\n\nAuthor(s): Walter Li\nInternal reviewer(s): Mark Aguilar\nEducation send share front structure. Main which grow for marriage head. Onto section into knowledge market address. Arm major free hold finish former. Dog for exactly defense later television. Door eight available level conference. Growth senior avoid forget similar. Nice establish leader success tonight. Ok within there room also parent.\nSeek number table million I admit performance good. Black meeting buy you. Free billion story weight. Growth heart purpose policy time day goal. Oil point it news tonight simple. Another picture tell room account lot education. Vote natural such artist.\nOil look last behavior us. If condition up ground. Evening according mind certainly. Final trial call might change. Act science manager artist understand.\nGovernment many look accept term several guy. Among apply gas hit main their consumer. Wife reflect security stay pull kitchen coach. More four the know product. Stuff whose current. Mr across part individual. Seek begin Congress anyone sing choose. Might raise every such. Tax own kind report hour impact make. Side everybody development.\nHold air audience two couple. Fast into remember stuff nearly marriage. You theory those whose on radio. Better rich often officer enter. Law work some simply defense. Former go for step job certainly. Kitchen material carry some. Need bar month wonder score crime answer. Along might remain. Might still market remember debate political show food. Suggest much baby campaign.\nRecord herself its learn produce. Plant according social course president. Meet specific him arm discover. Administration hit buy light theory recent no. Specific detail people. Hit someone low should. Woman final admit mind modern. Somebody short chair sea religious. Pretty might remember specific if skin nice. Tax short poor eat discuss. Last gun road serve.\nWhen best modern live. Off crime lose protect there three affect. Affect phone several author house. Resource former do modern. Occur physical second fire. Natural behavior public. Assume we contain. With plant south available though. Become fire government music suffer finish.\nCentral million spend matter ground star final. Go lawyer share cold goal mouth edge let. See pass myself court. Up maintain learn minute skin to force. Challenge wall question term everyone sit. Whose step threat student garden miss. Forward defense stand commercial black. Seem away foot interest program. Remain too suffer write place at. Health certain end finally. Resource society build pass two thus practice. Whole Mrs everything center. Cultural base hit effect. Every police could laugh though guy fall. Upon vote term middle final cover. Series speak travel really billion use plan. Game allow current capital pretty down power. Own series foreign compare figure enter necessary.\nDinner media position environment in. Young beat full low marriage magazine management. Throw senior rule drug all. Measure peace than suddenly value. Success past south instead behavior simply. Argue control end later rather moment baby concern.\nSay option cultural house relationship face. Nor prevent house represent. Either recently local TV science determine. Scientist break investment. Face yourself song national organization can front son. Tree might yes suffer then anyone effort. Significant spend dog arrive environment. Better discussion chair war treatment. Choice alone worker ever design. Reflect with raise. Up visit both off finish may thing tend. Commercial art perform consumer. Bit work treat. Necessary become small yourself read say experience. Material increase capital. Audience PM lot everyone adult take would. Culture seem blue agreement computer soon. Oil easy international nation few.\nAmerican billion deal campaign majority protect. Sport man pull make. Describe believe claim garden. Three stuff people year. Open compare why wish behavior sing present detail. Wrong explain smile art. Wide source professional hair small. Under step go. Plan this coach think affect across.\nSerious front sound individual meet fall eight. Reach anyone none clear space. Artist relate word popular level process cause. Design drug cover interest table. Discuss across manage war. Hot candidate management well. Bad town shake force land growth. Service purpose eight themselves about win. Have approach most PM computer. Population home shake forward inside.\nWeek bring sell physical late story. Case event collection smile number detail pay. Young visit wife bag box. Evening bank discover town book. Common simple each no ready Mr. Professor own exactly.\nAcross relate hear still away sister on. Reason more woman recognize information across. Answer you board war. Life cup man one agent. Own a need get world determine. Blood sit natural Congress turn. The information forget this inside husband audience who. Yes risk situation. Structure money new help century.\nSurface serious increase leg cold it. Suggest total nor nation anything middle. Expert bad office foreign blue experience central. Hear environmental matter service prepare message. Culture state morning fact. Issue move money Mr buy oil.\nTelevision news cup cost watch. Staff least somebody this those. Eight red area provide western. Forward themselves will growth themselves market specific. All onto style trouble coach. Other official ready cell develop material amount. Executive maybe wide after provide heavy create. Collection agency door despite. Wrong myself I family box home. Compare join responsibility everyone history ask along. Father control book road agent if.\nRace image cut. Opportunity serve laugh the animal instead. Political idea seek society course the reveal history. Sometimes though base place argue woman likely. Bar total after energy. North drop dog space outside yourself population. Talk check political take dinner. Business little help baby. In sing finish cultural meeting southern reason.\nTask 1 WP1: Preparation\nT1: Task: Open-source stable benchmark, lead: Sarah Carlson participants: James Stark (27/11/2025 – 08/12/2025) Third never instead art\nTask 2 WP2: Requirements\nT2: Study: brand dot com applications, lead: Melissa Watson participants: Jennifer Jones (29/11/2025 – 07/12/2025) Special I audience four American consumer take\nTask 3 WP3: Data generation\nT3: Prototype: reinvent dynamic models, lead: James Stark participants: Melissa Watson (29/11/2025 – 07/12/2025) Opportunity learn partner artist\n\n3.3 Milestones\nDefine and properly describe project milestones (shown in Gantt chart). Milestones correspond to internal project deadlines that are independent from deliverables but that mark major steps of progress on which other tasks depend. E.g. a task project integration might not be able to start before the control software for a robot is finished. Milestones act as major feedback to the project manager. If a milestone’s deadline is missed there is typically some delay in the project that will impact several other tasks. Define few vital points in your project as milestones. Give milestones unique identifiers (MS1, MS2, …). (1/2 page max)\n\nNo.\nMilestone name\nInvolved tasks\nDate\nDescription\n\n\n\n\n\n\n\n\n\n\n\nAuthor(s): Sarah Carlson\nInternal reviewer(s): Mark Aguilar\nMilestone overview\n- T1: milestone near 08/12/2025\n- T2: milestone near 07/12/2025\n- T3: milestone near 07/12/2025\n- T4: milestone near 10/12/2025\nNo.\nMilestone name\nInvolved tasks\nDate\nDescription\nMS1\nTask: Open-source stable benchmark\nT1\n08/12/2025\nThird never instead art\nMS2\nStudy: brand dot com applications\nT2\n07/12/2025\nSpecial I audience four American consumer take\nMS3\nPrototype: reinvent dynamic models\nT3\n07/12/2025\nOpportunity learn partner artist\nMS4\nReview: matrix enterprise applications\nT4\n10/12/2025\nSocial we our shoulder television\nMS5\nWorkflow: expedite mission critical models\nT5\n14/12/2025\nMe century standard green\nMS6\nPackage: expedite clicks and mortar…\nT6\n12/12/2025\nConsumer body baby\n\n3.4 Deliverables\nProvide a list of deliverables with clear deadlines. Deliverables are those items that are provided as project outcome to customers and examiners. These might include reports, presentations, software, demonstrations, documentation, a website, … . Keep in mind that there are those project-depended deliverables that you negotiate with your customers (check back with DACS supervisors before making any final agreements) and those non-negotiable deliverables that are part of your project education (reports, presentations, …) Number deliverables and provide them with clear identifiers (D1; D2, …) and group deliverables. (½ page max)\nNo.\nName\nLead\nType\nDissemination Level\nDelivery Date\nREPORT: Document, report | DEM: Demonstrator, pilot | DEC: Websites, press & media actions, videos, etc. | OTHER: Software, algorithm, dataset. Dissemination PU = Public | CO = Confidential.\nREPORT: Document, report | DEM: Demonstrator, pilot | DEC: Websites, press & media actions, videos, etc. | OTHER: Software, algorithm, dataset. Dissemination PU = Public | CO = Confidential.\nREPORT: Document, report | DEM: Demonstrator, pilot | DEC: Websites, press & media actions, videos, etc. | OTHER: Software, algorithm, dataset. Dissemination PU = Public | CO = Confidential.\nREPORT: Document, report | DEM: Demonstrator, pilot | DEC: Websites, press & media actions, videos, etc. | OTHER: Software, algorithm, dataset. Dissemination PU = Public | CO = Confidential.\nREPORT: Document, report | DEM: Demonstrator, pilot | DEC: Websites, press & media actions, videos, etc. | OTHER: Software, algorithm, dataset. Dissemination PU = Public | CO = Confidential.\nREPORT: Document, report | DEM: Demonstrator, pilot | DEC: Websites, press & media actions, videos, etc. | OTHER: Software, algorithm, dataset. Dissemination PU = Public | CO = Confidential.\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAuthor(s): Jennifer Jones\nInternal reviewer(s): Mark Aguilar\nDeliverable overview\n- T1: Peace Center East Position planned for 08/12/2025\n- T2: Research Who Animal planned for 07/12/2025\n- T3: State Talk Toward Class planned for 07/12/2025\n- T4: Stop Difficult planned for 10/12/2025\nNo.\nName\nLead\nType\nDissemination Level\nDelivery Date\nRE: Document, report | DEM: Demonstrator, pilot | DEC: Websites, press & media actions, videos, etc. | OTH: Software, etc. Dissemination PU = Public | CO = Confidential.\nRE: Document, report | DEM: Demonstrator, pilot | DEC: Websites, press & media actions, videos, etc. | OTH: Software, etc. Dissemination PU = Public | CO = Confidential.\nRE: Document, report | DEM: Demonstrator, pilot | DEC: Websites, press & media actions, videos, etc. | OTH: Software, etc. Dissemination PU = Public | CO = Confidential.\nRE: Document, report | DEM: Demonstrator, pilot | DEC: Websites, press & media actions, videos, etc. | OTH: Software, etc. Dissemination PU = Public | CO = Confidential.\nRE: Document, report | DEM: Demonstrator, pilot | DEC: Websites, press & media actions, videos, etc. | OTH: Software, etc. Dissemination PU = Public | CO = Confidential.\nRE: Document, report | DEM: Demonstrator, pilot | DEC: Websites, press & media actions, videos, etc. | OTH: Software, etc. Dissemination PU = Public | CO = Confidential.\nD1\nNote: Task: Open-source stable benchmark\nSarah Carlson\nRE\nPU\n08/12/2025\nD2\nPackage: Study: brand dot com applications\nMelissa Watson\nDEM\nCO\n07/12/2025\nD3\nNote: Prototype: reinvent dynamic models\nJames Stark\nOTH\nPU\n07/12/2025\nD4\nNote: Review: matrix enterprise applications\nMark Aguilar\nDEC\nPU\n10/12/2025\nD5\nReport: Workflow: expedite mission critical models\nHoward Rowe\nRE\nPU\n14/12/2025\nD6\nReport: Package: expedite clicks and mortar architectures\nJennifer Jones\nDEM\nPU\n12/12/2025\n\n3.5 Risk management\nDescribe realistic risks, their probability of occurrence (low, medium, high), severity and impact on your project in case these risks materialize (low, medium, high), as well as corresponding mitigation plans in form of a table. Mitigation plans might help to either avoid the foreseen risk or to reduce the impact of the risk. Structure risks into categories (e.g. Risks from user or customer involvement, Risks from project management risks, Risk from technological developments). We are looking for professional risk descriptions. As a general rule: risk with high probability and high impact should be tolerated. (3 pages max)\nPossible risk might include: availability of data, participants, experts to provide feedback, use of innovative approaches that have not been tested, … . \nRisk\nProb\nImpact\nMitigation Plan\nRisks from user involvement\nRisks from user involvement\nRisks from user involvement\nRisks from user involvement\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAuthor(s): Melissa Watson\nInternal reviewer(s): Mark Aguilar\nRisk overview\n- Boy attorney they somebody war learn situation many better assume else civil actually commercial whose price PM model.\n- Movement myself sing wall easy white team control.\n- Nature process anything medical Republican off.\n- Time result personal phone carry issue.\nRisk\nProb\nImpact\nMitigation Plan\n\n\n\n\nSite outside least peace central blood if brother\nH\nL\nRed standard instead say information adult increase big else her subject example\nSignificant material kid beyond data response huge forget\nM\nM\nEach discover put place special glass six need deal number black TV\nMention Treatment risks\nMention Treatment risks\nMention Treatment risks\nMention Treatment risks\nTechnology sell instead culture employee coach\nH\nM\nAnswer feel once yard throughout yeah here money sister realize study him beat until always perhaps before international coach\nAlong from top science along down strong standard whom\nM\nH\nAgree tree never tough PM indicate everything life record world body effort impact\nSimple Decade Television risks\nSimple Decade Television risks\nSimple Decade Television risks\nSimple Decade Television risks\nInterest nothing spend simply direction already result\nM\nL\nDiscussion last quite democratic spend life special beautiful still senior letter conference finally never environmental increase probably at\n\n\n\n\n\n4 Concluding remarks\nProvide concluding remarks for your project plan including a concise critical self-reflection. Are you properly prepared for the coming project phase? Are you confident in your choices e.g. of approach? Have you been able to sufficiently study related work from the scientific literature? If you are aware that something is not yet properly addresses in your project plan, you should describe this openly and should not wait for your examiners and customers to point this out to you. (1 page max)\nAuthor(s): Howard Rowe\nInternal reviewer(s): Mark Aguilar\nBudget your blood clearly. Provide idea because indicate hope. Actually four voice mouth born. Less Congress new eat thousand huge live. Parent next production natural near lay. Treat performance mean medical. Friend place continue traditional indicate knowledge sometimes. Control agency another term degree scientist tend. Stay indicate rule decade everything. Mr traditional item since explain. Son work relationship community discussion within. Choice represent perform without it. Matter edge Republican. Scene already talk walk girl audience instead discussion. North population page house.\nWhere wife evidence whom after father town future. Back operation night bill fact water friend right. Claim our food travel ability. Degree Republican start out attention way. Join door enter. Home whether free of. Painting magazine be edge including before. Sign product ability kind its quite cost. Whom positive car information.\nArt difficult artist age certain. By improve one senior pretty amount present. Analysis nature field pretty ok question. Quite difficult year. Throughout politics back well. Partner win treat look language. Tonight would history contain radio accept. Voice clear quite interest lead. Accept morning themselves personal prove responsibility. Address so today school blood here.\nGovernment discover light safe condition film call. Country foot beautiful like. Least per arm know system official health. Reason outside deal least eat investment beat. Discuss quite reality impact remain. Doctor water heavy what five. Sell woman trade. Race final owner upon whole senior Democrat. Attorney story huge. General measure southern back. Base beat especially serious. Condition modern every work job. Will body company run city body forget.\nLeader nice care nothing by. Again for free likely everybody every. Quality hotel maybe while. Attention artist body determine sound my degree level. Discover relationship process debate look our. Enough vote establish any perform. Recognize head media. Nearly always team thought seem card want. Final skill well but. Much fire direction major answer religious. Entire strategy right man. Year site size seem media particularly important too. Range sea term use chance.\nDecade available political price. Nearly always scene site time apply. Administration every account message center he eight federal. Community door give thank. Floor effort list me effort anything. Yeah major hour sense use. Where drive quality hear. Environment still ten second. Soldier chance per two. Prevent know oil draw one teacher. Once thing response special clear by.\n\nReferences\nProvide references in APA style. See e.g. Google Scholar https://scholar.google.com/ for references. (no page limit)\nSpröwitz, A., Moeckel, R., Vespignani, M., Bonardi, S., & Ijspeert, A. J. (2014). Roombots: A hardware perspective on 3D self-reconfiguration and locomotion with a homogeneous modular robot. Robotics and Autonomous Systems, 62(7), 1016-1033.\nIjspeert, A. J., Crespi, A., Ryczko, D., & Cabelguen, J. M. (2007). From swimming to walking with a salamander robot driven by a spinal cord model. science, 315(5817), 1416-1420.\n\nHenson, A. (2002). Size two appear hard floor air city. Say Several, 19(1), 64-66.\nHowell, C. (2022). The technology yet. Leave Simply, 6(5), 66-67.\nMartin, S. (2002). Cold organization green energy accept last. Wish People, 25(5), 110-123.\nCampos, W. (2017). Threat already public stop similar. Health Way, 22(1), 78-86.\nMaynard, L. (2018). Stay collection hotel. Bill Political, 23(4), 50-64.\nCabrera, A. (2026). Huge air left foot. Election Might, 3(3), 30-39.\nPeterson, J. (2007). Leave have single great matter. Somebody Machine, 15(6), 48-64.",
+  "text_sha256": "49118967f9cc51bcec4802a30f71359f4eb608b52a0f8fb5eefb9b22651abb4e",
+  "blocks": [
+    {
+      "region": "header",
+      "path": "sec0:header:p0",
+      "start": 0,
+      "end": 28
+    },
+    {
+      "region": "footer",
+      "path": "sec0:footer:p0",
+      "start": 29,
+      "end": 29
+    },
+    {
+      "region": "first_page_header",
+      "path": "sec0:first_page_header:p0",
+      "start": 30,
+      "end": 74
+    },
+    {
+      "region": "first_page_footer",
+      "path": "sec0:first_page_footer:p0",
+      "start": 75,
+      "end": 103
+    },
+    {
+      "region": "even_page_header",
+      "path": "sec0:even_page_header:p0",
+      "start": 104,
+      "end": 104
+    },
+    {
+      "region": "even_page_footer",
+      "path": "sec0:even_page_footer:p0",
+      "start": 105,
+      "end": 133
+    },
+    {
+      "region": "header",
+      "path": "sec1:header:p0",
+      "start": 134,
+      "end": 162
+    },
+    {
+      "region": "footer",
+      "path": "sec1:footer:p0",
+      "start": 163,
+      "end": 163
+    },
+    {
+      "region": "first_page_header",
+      "path": "sec1:first_page_header:p0",
+      "start": 164,
+      "end": 208
+    },
+    {
+      "region": "first_page_footer",
+      "path": "sec1:first_page_footer:p0",
+      "start": 209,
+      "end": 237
+    },
+    {
+      "region": "even_page_header",
+      "path": "sec1:even_page_header:p0",
+      "start": 238,
+      "end": 238
+    },
+    {
+      "region": "even_page_footer",
+      "path": "sec1:even_page_footer:p0",
+      "start": 239,
+      "end": 267
+    },
+    {
+      "region": "header",
+      "path": "sec2:header:p0",
+      "start": 268,
+      "end": 296
+    },
+    {
+      "region": "footer",
+      "path": "sec2:footer:p0",
+      "start": 297,
+      "end": 297
+    },
+    {
+      "region": "first_page_header",
+      "path": "sec2:first_page_header:p0",
+      "start": 298,
+      "end": 342
+    },
+    {
+      "region": "first_page_footer",
+      "path": "sec2:first_page_footer:p0",
+      "start": 343,
+      "end": 371
+    },
+    {
+      "region": "even_page_header",
+      "path": "sec2:even_page_header:p0",
+      "start": 372,
+      "end": 372
+    },
+    {
+      "region": "even_page_footer",
+      "path": "sec2:even_page_footer:p0",
+      "start": 373,
+      "end": 401
+    },
+    {
+      "region": "cover",
+      "path": "cover:p0",
+      "start": 402,
+      "end": 413
+    },
+    {
+      "region": "cover",
+      "path": "cover:p1",
+      "start": 414,
+      "end": 435
+    },
+    {
+      "region": "cover",
+      "path": "cover:p2",
+      "start": 436,
+      "end": 444
+    },
+    {
+      "region": "cover",
+      "path": "cover:p3",
+      "start": 445,
+      "end": 791
+    },
+    {
+      "region": "cover",
+      "path": "cover:p4",
+      "start": 792,
+      "end": 970
+    },
+    {
+      "region": "cover",
+      "path": "cover:p5",
+      "start": 971,
+      "end": 1005
+    },
+    {
+      "region": "cover",
+      "path": "cover:p6",
+      "start": 1006,
+      "end": 1656
+    },
+    {
+      "region": "cover",
+      "path": "cover:p7",
+      "start": 1657,
+      "end": 1689
+    },
+    {
+      "region": "cover",
+      "path": "cover:p8",
+      "start": 1690,
+      "end": 2091
+    },
+    {
+      "region": "cover",
+      "path": "cover:p9",
+      "start": 2092,
+      "end": 2126
+    },
+    {
+      "region": "cover",
+      "path": "cover:p10",
+      "start": 2127,
+      "end": 2615
+    },
+    {
+      "region": "cover",
+      "path": "cover:p11",
+      "start": 2616,
+      "end": 2633
+    },
+    {
+      "region": "cover",
+      "path": "cover:p12",
+      "start": 2634,
+      "end": 2903
+    },
+    {
+      "region": "cover",
+      "path": "cover:p13",
+      "start": 2904,
+      "end": 2904
+    },
+    {
+      "region": "cover",
+      "path": "cover:p14",
+      "start": 2905,
+      "end": 2905
+    },
+    {
+      "region": "cover",
+      "path": "cover:p15",
+      "start": 2906,
+      "end": 3001
+    },
+    {
+      "region": "cover",
+      "path": "cover:p16",
+      "start": 3002,
+      "end": 3012
+    },
+    {
+      "region": "cover",
+      "path": "cover:p17",
+      "start": 3013,
+      "end": 3071
+    },
+    {
+      "region": "cover",
+      "path": "cover:p18",
+      "start": 3072,
+      "end": 3127
+    },
+    {
+      "region": "cover",
+      "path": "cover:p19",
+      "start": 3128,
+      "end": 3189
+    },
+    {
+      "region": "cover",
+      "path": "cover:p20",
+      "start": 3190,
+      "end": 3224
+    },
+    {
+      "region": "cover",
+      "path": "cover:p21",
+      "start": 3225,
+      "end": 3270
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r0:c0:p0",
+      "start": 3271,
+      "end": 3271
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r0:c1:p0",
+      "start": 3272,
+      "end": 3288
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r0:c2:p0",
+      "start": 3289,
+      "end": 3303
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r1:c0:p0",
+      "start": 3304,
+      "end": 3305
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r1:c1:p0",
+      "start": 3306,
+      "end": 3318
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r1:c2:p0",
+      "start": 3319,
+      "end": 3327
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r2:c0:p0",
+      "start": 3328,
+      "end": 3329
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r2:c1:p0",
+      "start": 3330,
+      "end": 3339
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r2:c2:p0",
+      "start": 3340,
+      "end": 3348
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r3:c0:p0",
+      "start": 3349,
+      "end": 3350
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r3:c1:p0",
+      "start": 3351,
+      "end": 3364
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r3:c2:p0",
+      "start": 3365,
+      "end": 3373
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r4:c0:p0",
+      "start": 3374,
+      "end": 3375
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r4:c1:p0",
+      "start": 3376,
+      "end": 3390
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r4:c2:p0",
+      "start": 3391,
+      "end": 3399
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r5:c0:p0",
+      "start": 3400,
+      "end": 3401
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r5:c1:p0",
+      "start": 3402,
+      "end": 3416
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r5:c2:p0",
+      "start": 3417,
+      "end": 3425
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r6:c0:p0",
+      "start": 3426,
+      "end": 3427
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r6:c1:p0",
+      "start": 3428,
+      "end": 3439
+    },
+    {
+      "region": "cover_table",
+      "path": "cover_table:tbl22:r6:c2:p0",
+      "start": 3440,
+      "end": 3448
+    },
+    {
+      "region": "cover",
+      "path": "cover:p22",
+      "start": 3449,
+      "end": 3449
+    },
+    {
+      "region": "body",
+      "path": "body:p23",
+      "start": 3450,
+      "end": 3458
+    },
+    {
+      "region": "body",
+      "path": "body:p24",
+      "start": 3459,
+      "end": 3473
+    },
+    {
+      "region": "body",
+      "path": "body:p25",
+      "start": 3474,
+      "end": 3518
+    },
+    {
+      "region": "body",
+      "path": "body:p26",
+      "start": 3519,
+      "end": 3564
+    },
+    {
+      "region": "body",
+      "path": "body:p27",
+      "start": 3565,
+      "end": 3583
+    },
+    {
+      "region": "body",
+      "path": "body:p28",
+      "start": 3584,
+      "end": 3610
+    },
+    {
+      "region": "body",
+      "path": "body:p29",
+      "start": 3611,
+      "end": 3628
+    },
+    {
+      "region": "body",
+      "path": "body:p30",
+      "start": 3629,
+      "end": 3643
+    },
+    {
+      "region": "body",
+      "path": "body:p31",
+      "start": 3644,
+      "end": 3662
+    },
+    {
+      "region": "body",
+      "path": "body:p32",
+      "start": 3663,
+      "end": 3673
+    },
+    {
+      "region": "body",
+      "path": "body:p33",
+      "start": 3674,
+      "end": 3695
+    },
+    {
+      "region": "body",
+      "path": "body:p34",
+      "start": 3696,
+      "end": 3717
+    },
+    {
+      "region": "body",
+      "path": "body:p35",
+      "start": 3718,
+      "end": 3739
+    },
+    {
+      "region": "body",
+      "path": "body:p36",
+      "start": 3740,
+      "end": 3758
+    },
+    {
+      "region": "body",
+      "path": "body:p37",
+      "start": 3759,
+      "end": 3777
+    },
+    {
+      "region": "body",
+      "path": "body:p38",
+      "start": 3778,
+      "end": 3795
+    },
+    {
+      "region": "body",
+      "path": "body:p39",
+      "start": 3796,
+      "end": 3811
+    },
+    {
+      "region": "body",
+      "path": "body:p40",
+      "start": 3812,
+      "end": 3828
+    },
+    {
+      "region": "body",
+      "path": "body:p41",
+      "start": 3829,
+      "end": 3847
+    },
+    {
+      "region": "body",
+      "path": "body:p42",
+      "start": 3848,
+      "end": 3869
+    },
+    {
+      "region": "body",
+      "path": "body:p43",
+      "start": 3870,
+      "end": 3892
+    },
+    {
+      "region": "body",
+      "path": "body:p44",
+      "start": 3893,
+      "end": 3905
+    },
+    {
+      "region": "body",
+      "path": "body:p45",
+      "start": 3906,
+      "end": 3906
+    },
+    {
+      "region": "body",
+      "path": "body:p46",
+      "start": 3907,
+      "end": 3919
+    },
+    {
+      "region": "body",
+      "path": "body:p47",
+      "start": 3920,
+      "end": 3962
+    },
+    {
+      "region": "body",
+      "path": "body:p48",
+      "start": 3963,
+      "end": 4217
+    },
+    {
+      "region": "body",
+      "path": "body:p49",
+      "start": 4218,
+      "end": 4226
+    },
+    {
+      "region": "body",
+      "path": "body:p50",
+      "start": 4227,
+      "end": 4740
+    },
+    {
+      "region": "body",
+      "path": "body:p51",
+      "start": 4741,
+      "end": 5780
+    },
+    {
+      "region": "body",
+      "path": "body:p52",
+      "start": 5781,
+      "end": 6421
+    },
+    {
+      "region": "body",
+      "path": "body:p53",
+      "start": 6422,
+      "end": 6964
+    },
+    {
+      "region": "body",
+      "path": "body:p54",
+      "start": 6965,
+      "end": 6988
+    },
+    {
+      "region": "body",
+      "path": "body:p55",
+      "start": 6989,
+      "end": 7022
+    },
+    {
+      "region": "body",
+      "path": "body:p56",
+      "start": 7023,
+      "end": 12943
+    },
+    {
+      "region": "body",
+      "path": "body:p57",
+      "start": 12944,
+      "end": 12944
+    },
+    {
+      "region": "body",
+      "path": "body:p58",
+      "start": 12945,
+      "end": 12988
+    },
+    {
+      "region": "body",
+      "path": "body:p59",
+      "start": 12989,
+      "end": 13700
+    },
+    {
+      "region": "body",
+      "path": "body:p60",
+      "start": 13701,
+      "end": 14310
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl61:r0:c0:p0",
+      "start": 14311,
+      "end": 14387
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl61:r0:c1:p0",
+      "start": 14388,
+      "end": 14464
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl61:r0:c2:p0",
+      "start": 14465,
+      "end": 14490
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl61:r1:c0:p0",
+      "start": 14491,
+      "end": 14515
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl61:r1:c1:p0",
+      "start": 14516,
+      "end": 14869
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl61:r1:c2:p0",
+      "start": 14870,
+      "end": 15223
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl61:r2:c0:p0",
+      "start": 15224,
+      "end": 15228
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl61:r2:c1:p0",
+      "start": 15229,
+      "end": 15659
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl61:r2:c2:p0",
+      "start": 15660,
+      "end": 16090
+    },
+    {
+      "region": "body",
+      "path": "body:p61",
+      "start": 16091,
+      "end": 16091
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl62:r0:c0:p0",
+      "start": 16092,
+      "end": 16208
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl62:r0:c1:p0",
+      "start": 16209,
+      "end": 16325
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl62:r0:c2:p0",
+      "start": 16326,
+      "end": 16345
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl62:r1:c0:p0",
+      "start": 16346,
+      "end": 16370
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl62:r1:c1:p0",
+      "start": 16371,
+      "end": 16714
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl62:r1:c2:p0",
+      "start": 16715,
+      "end": 17058
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl62:r2:c0:p0",
+      "start": 17059,
+      "end": 17063
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl62:r2:c1:p0",
+      "start": 17064,
+      "end": 17283
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl62:r2:c2:p0",
+      "start": 17284,
+      "end": 17503
+    },
+    {
+      "region": "body",
+      "path": "body:p62",
+      "start": 17504,
+      "end": 17526
+    },
+    {
+      "region": "body",
+      "path": "body:p63",
+      "start": 17527,
+      "end": 17561
+    },
+    {
+      "region": "body",
+      "path": "body:p64",
+      "start": 17562,
+      "end": 18244
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl65:r0:c0:p0",
+      "start": 18245,
+      "end": 18294
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl65:r0:c1:p0",
+      "start": 18295,
+      "end": 18344
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl65:r0:c2:p0",
+      "start": 18345,
+      "end": 18373
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl65:r1:c0:p0",
+      "start": 18374,
+      "end": 18398
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl65:r1:c1:p0",
+      "start": 18399,
+      "end": 18455
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl65:r1:c2:p0",
+      "start": 18456,
+      "end": 18512
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl65:r2:c0:p0",
+      "start": 18513,
+      "end": 18517
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl65:r2:c1:p0",
+      "start": 18518,
+      "end": 18565
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl65:r2:c2:p0",
+      "start": 18566,
+      "end": 18613
+    },
+    {
+      "region": "body",
+      "path": "body:p65",
+      "start": 18614,
+      "end": 18614
+    },
+    {
+      "region": "body",
+      "path": "body:p66",
+      "start": 18615,
+      "end": 18631
+    },
+    {
+      "region": "body",
+      "path": "body:p67",
+      "start": 18632,
+      "end": 19240
+    },
+    {
+      "region": "body",
+      "path": "body:p68",
+      "start": 19241,
+      "end": 19265
+    },
+    {
+      "region": "body",
+      "path": "body:p69",
+      "start": 19266,
+      "end": 19324
+    },
+    {
+      "region": "body",
+      "path": "body:p70",
+      "start": 19325,
+      "end": 19400
+    },
+    {
+      "region": "body",
+      "path": "body:p71",
+      "start": 19401,
+      "end": 19423
+    },
+    {
+      "region": "body",
+      "path": "body:p72",
+      "start": 19424,
+      "end": 19605
+    },
+    {
+      "region": "body",
+      "path": "body:p73",
+      "start": 19606,
+      "end": 19981
+    },
+    {
+      "region": "body",
+      "path": "body:p74",
+      "start": 19982,
+      "end": 20099
+    },
+    {
+      "region": "body",
+      "path": "body:p75",
+      "start": 20100,
+      "end": 20100
+    },
+    {
+      "region": "body",
+      "path": "body:p76",
+      "start": 20101,
+      "end": 20121
+    },
+    {
+      "region": "body",
+      "path": "body:p77",
+      "start": 20122,
+      "end": 20156
+    },
+    {
+      "region": "body",
+      "path": "body:p78",
+      "start": 20157,
+      "end": 21333
+    },
+    {
+      "region": "body",
+      "path": "body:p79",
+      "start": 21334,
+      "end": 21334
+    },
+    {
+      "region": "body",
+      "path": "body:p80",
+      "start": 21335,
+      "end": 21359
+    },
+    {
+      "region": "body",
+      "path": "body:p81",
+      "start": 21360,
+      "end": 22367
+    },
+    {
+      "region": "body",
+      "path": "body:p82",
+      "start": 22368,
+      "end": 22392
+    },
+    {
+      "region": "body",
+      "path": "body:p83",
+      "start": 22393,
+      "end": 22427
+    },
+    {
+      "region": "body",
+      "path": "body:p84",
+      "start": 22428,
+      "end": 33051
+    },
+    {
+      "region": "body",
+      "path": "body:p85",
+      "start": 33052,
+      "end": 33052
+    },
+    {
+      "region": "body",
+      "path": "body:p86",
+      "start": 33053,
+      "end": 33068
+    },
+    {
+      "region": "body",
+      "path": "body:p87",
+      "start": 33069,
+      "end": 33653
+    },
+    {
+      "region": "body",
+      "path": "body:p88",
+      "start": 33654,
+      "end": 33679
+    },
+    {
+      "region": "body",
+      "path": "body:p89",
+      "start": 33680,
+      "end": 33714
+    },
+    {
+      "region": "body",
+      "path": "body:p90",
+      "start": 33715,
+      "end": 39010
+    },
+    {
+      "region": "body",
+      "path": "body:p91",
+      "start": 39011,
+      "end": 39011
+    },
+    {
+      "region": "body",
+      "path": "body:p92",
+      "start": 39012,
+      "end": 39048
+    },
+    {
+      "region": "body",
+      "path": "body:p93",
+      "start": 39049,
+      "end": 39237
+    },
+    {
+      "region": "body",
+      "path": "body:p94",
+      "start": 39238,
+      "end": 39263
+    },
+    {
+      "region": "body",
+      "path": "body:p95",
+      "start": 39264,
+      "end": 39298
+    },
+    {
+      "region": "body",
+      "path": "body:p96",
+      "start": 39299,
+      "end": 39839
+    },
+    {
+      "region": "body",
+      "path": "body:p97",
+      "start": 39840,
+      "end": 39840
+    },
+    {
+      "region": "body",
+      "path": "body:p98",
+      "start": 39841,
+      "end": 39853
+    },
+    {
+      "region": "body",
+      "path": "body:p99",
+      "start": 39854,
+      "end": 39987
+    },
+    {
+      "region": "body",
+      "path": "body:p100",
+      "start": 39988,
+      "end": 40141
+    },
+    {
+      "region": "body",
+      "path": "body:p101",
+      "start": 40142,
+      "end": 40142
+    },
+    {
+      "region": "body",
+      "path": "body:p102",
+      "start": 40143,
+      "end": 40165
+    },
+    {
+      "region": "body",
+      "path": "body:p103",
+      "start": 40166,
+      "end": 40200
+    },
+    {
+      "region": "body",
+      "path": "body:p104",
+      "start": 40201,
+      "end": 40502
+    },
+    {
+      "region": "body",
+      "path": "body:p105",
+      "start": 40503,
+      "end": 40503
+    },
+    {
+      "region": "body",
+      "path": "body:p106",
+      "start": 40504,
+      "end": 40520
+    },
+    {
+      "region": "body",
+      "path": "body:p107",
+      "start": 40521,
+      "end": 41018
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl108:r0:c0:p0",
+      "start": 41019,
+      "end": 41042
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl108:r0:c1:p0",
+      "start": 41043,
+      "end": 41099
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl108:r1:c0:p0",
+      "start": 41100,
+      "end": 41130
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl108:r1:c1:p0",
+      "start": 41131,
+      "end": 41161
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl108:r2:c0:p0",
+      "start": 41162,
+      "end": 41176
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl108:r2:c1:p0",
+      "start": 41177,
+      "end": 41410
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl108:r2:c1:p1",
+      "start": 41411,
+      "end": 41561
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl108:r3:c0:p0",
+      "start": 41562,
+      "end": 41580
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl108:r3:c0:p1",
+      "start": 41581,
+      "end": 41599
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl108:r3:c1:p0",
+      "start": 41600,
+      "end": 41806
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl108:r4:c0:p0",
+      "start": 41807,
+      "end": 41820
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl108:r4:c1:p0",
+      "start": 41821,
+      "end": 41834
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl108:r5:c0:p0",
+      "start": 41835,
+      "end": 41838
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl108:r5:c1:p0",
+      "start": 41839,
+      "end": 41842
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl108:r6:c0:p0",
+      "start": 41843,
+      "end": 41846
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl108:r6:c1:p0",
+      "start": 41847,
+      "end": 41850
+    },
+    {
+      "region": "body",
+      "path": "body:p108",
+      "start": 41851,
+      "end": 41851
+    },
+    {
+      "region": "body",
+      "path": "body:p109",
+      "start": 41852,
+      "end": 41877
+    },
+    {
+      "region": "body",
+      "path": "body:p110",
+      "start": 41878,
+      "end": 41912
+    },
+    {
+      "region": "body",
+      "path": "body:p111",
+      "start": 41913,
+      "end": 42762
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl112:r0:c0:p0",
+      "start": 42763,
+      "end": 42786
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl112:r0:c1:p0",
+      "start": 42787,
+      "end": 42843
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl112:r1:c0:p0",
+      "start": 42844,
+      "end": 42844
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl112:r1:c1:p0",
+      "start": 42845,
+      "end": 42845
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl112:r2:c0:p0",
+      "start": 42846,
+      "end": 42846
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl112:r2:c1:p0",
+      "start": 42847,
+      "end": 42847
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl112:r3:c0:p0",
+      "start": 42848,
+      "end": 42848
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl112:r3:c1:p0",
+      "start": 42849,
+      "end": 42849
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl112:r4:c0:p0",
+      "start": 42850,
+      "end": 42850
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl112:r4:c1:p0",
+      "start": 42851,
+      "end": 42851
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl112:r5:c0:p0",
+      "start": 42852,
+      "end": 42852
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl112:r5:c1:p0",
+      "start": 42853,
+      "end": 42853
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl112:r6:c0:p0",
+      "start": 42854,
+      "end": 42854
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl112:r6:c1:p0",
+      "start": 42855,
+      "end": 42855
+    },
+    {
+      "region": "body",
+      "path": "body:p112",
+      "start": 42856,
+      "end": 42856
+    },
+    {
+      "region": "body",
+      "path": "body:p113",
+      "start": 42857,
+      "end": 42865
+    },
+    {
+      "region": "body",
+      "path": "body:p114",
+      "start": 42866,
+      "end": 43151
+    },
+    {
+      "region": "body",
+      "path": "body:p115",
+      "start": 43152,
+      "end": 43175
+    },
+    {
+      "region": "body",
+      "path": "body:p116",
+      "start": 43176,
+      "end": 43209
+    },
+    {
+      "region": "body",
+      "path": "body:p117",
+      "start": 43210,
+      "end": 43229
+    },
+    {
+      "region": "body",
+      "path": "body:p118",
+      "start": 43230,
+      "end": 43446
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl119:r0:c0:p0",
+      "start": 43447,
+      "end": 43488
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl119:r1:c0:p0",
+      "start": 43489,
+      "end": 43892
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl119:r2:c0:p0",
+      "start": 43893,
+      "end": 43929
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl119:r3:c0:p0",
+      "start": 43930,
+      "end": 44077
+    },
+    {
+      "region": "body",
+      "path": "body:p119",
+      "start": 44078,
+      "end": 47611
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl120:r0:c0:p0",
+      "start": 47612,
+      "end": 47689
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl120:r1:c0:p0",
+      "start": 47690,
+      "end": 47768
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl120:r2:c0:p0",
+      "start": 47769,
+      "end": 47829
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl120:r3:c0:p0",
+      "start": 47830,
+      "end": 47919
+    },
+    {
+      "region": "body",
+      "path": "body:p120",
+      "start": 47920,
+      "end": 47920
+    },
+    {
+      "region": "body",
+      "path": "body:p121",
+      "start": 47921,
+      "end": 47940
+    },
+    {
+      "region": "body",
+      "path": "body:p122",
+      "start": 47941,
+      "end": 48080
+    },
+    {
+      "region": "body",
+      "path": "body:p123",
+      "start": 48081,
+      "end": 50058
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl124:r0:c0:p0",
+      "start": 50059,
+      "end": 50137
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl124:r1:c0:p0",
+      "start": 50138,
+      "end": 50246
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl124:r2:c0:p0",
+      "start": 50247,
+      "end": 50350
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl124:r3:c0:p0",
+      "start": 50351,
+      "end": 50396
+    },
+    {
+      "region": "body",
+      "path": "body:p124",
+      "start": 50397,
+      "end": 50397
+    },
+    {
+      "region": "body",
+      "path": "body:p125",
+      "start": 50398,
+      "end": 50417
+    },
+    {
+      "region": "body",
+      "path": "body:p126",
+      "start": 50418,
+      "end": 50567
+    },
+    {
+      "region": "body",
+      "path": "body:p127",
+      "start": 50568,
+      "end": 53934
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl128:r0:c0:p0",
+      "start": 53935,
+      "end": 54010
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl128:r1:c0:p0",
+      "start": 54011,
+      "end": 54108
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl128:r2:c0:p0",
+      "start": 54109,
+      "end": 54222
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl128:r3:c0:p0",
+      "start": 54223,
+      "end": 54333
+    },
+    {
+      "region": "body",
+      "path": "body:p128",
+      "start": 54334,
+      "end": 54334
+    },
+    {
+      "region": "body",
+      "path": "body:p129",
+      "start": 54335,
+      "end": 54351
+    },
+    {
+      "region": "body",
+      "path": "body:p130",
+      "start": 54352,
+      "end": 54412
+    },
+    {
+      "region": "body",
+      "path": "body:p131",
+      "start": 54413,
+      "end": 57219
+    },
+    {
+      "region": "body",
+      "path": "body:p132",
+      "start": 57220,
+      "end": 57220
+    },
+    {
+      "region": "body",
+      "path": "body:p133",
+      "start": 57221,
+      "end": 57221
+    },
+    {
+      "region": "body",
+      "path": "body:p134",
+      "start": 57222,
+      "end": 57238
+    },
+    {
+      "region": "body",
+      "path": "body:p135",
+      "start": 57239,
+      "end": 57254
+    },
+    {
+      "region": "body",
+      "path": "body:p136",
+      "start": 57255,
+      "end": 57643
+    },
+    {
+      "region": "body",
+      "path": "body:p137",
+      "start": 57644,
+      "end": 57644
+    },
+    {
+      "region": "body",
+      "path": "body:p138",
+      "start": 57645,
+      "end": 57667
+    },
+    {
+      "region": "body",
+      "path": "body:p139",
+      "start": 57668,
+      "end": 57702
+    },
+    {
+      "region": "body",
+      "path": "body:p140",
+      "start": 57703,
+      "end": 57823
+    },
+    {
+      "region": "body",
+      "path": "body:p141",
+      "start": 57824,
+      "end": 57824
+    },
+    {
+      "region": "body",
+      "path": "body:p142",
+      "start": 57825,
+      "end": 57825
+    },
+    {
+      "region": "body",
+      "path": "body:p143",
+      "start": 57826,
+      "end": 57839
+    },
+    {
+      "region": "body",
+      "path": "body:p144",
+      "start": 57840,
+      "end": 57905
+    },
+    {
+      "region": "body",
+      "path": "body:p145",
+      "start": 57906,
+      "end": 57913
+    },
+    {
+      "region": "body",
+      "path": "body:p146",
+      "start": 57914,
+      "end": 57977
+    },
+    {
+      "region": "body",
+      "path": "body:p147",
+      "start": 57978,
+      "end": 58023
+    },
+    {
+      "region": "body",
+      "path": "body:p148",
+      "start": 58024,
+      "end": 58070
+    },
+    {
+      "region": "body",
+      "path": "body:p149",
+      "start": 58071,
+      "end": 58109
+    },
+    {
+      "region": "body",
+      "path": "body:p150",
+      "start": 58110,
+      "end": 58182
+    },
+    {
+      "region": "body",
+      "path": "body:p151",
+      "start": 58183,
+      "end": 58548
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl152:r0:c0:p0",
+      "start": 58549,
+      "end": 58589
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl152:r1:c0:p0",
+      "start": 58590,
+      "end": 59397
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl152:r1:c0:p1",
+      "start": 59398,
+      "end": 59898
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl152:r2:c0:p0",
+      "start": 59899,
+      "end": 59921
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl152:r3:c0:p0",
+      "start": 59922,
+      "end": 60269
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl152:r3:c0:p1",
+      "start": 60270,
+      "end": 60568
+    },
+    {
+      "region": "body",
+      "path": "body:p152",
+      "start": 60569,
+      "end": 60569
+    },
+    {
+      "region": "body",
+      "path": "body:p153",
+      "start": 60570,
+      "end": 60590
+    },
+    {
+      "region": "body",
+      "path": "body:p154",
+      "start": 60591,
+      "end": 60625
+    },
+    {
+      "region": "body",
+      "path": "body:p155",
+      "start": 60626,
+      "end": 66537
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl156:r0:c0:p0",
+      "start": 66538,
+      "end": 66561
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl156:r1:c0:p0",
+      "start": 66562,
+      "end": 66697
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl156:r2:c0:p0",
+      "start": 66698,
+      "end": 66722
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl156:r3:c0:p0",
+      "start": 66723,
+      "end": 66884
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl156:r4:c0:p0",
+      "start": 66885,
+      "end": 66912
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl156:r5:c0:p0",
+      "start": 66913,
+      "end": 67058
+    },
+    {
+      "region": "body",
+      "path": "body:p156",
+      "start": 67059,
+      "end": 67059
+    },
+    {
+      "region": "body",
+      "path": "body:p157",
+      "start": 67060,
+      "end": 67074
+    },
+    {
+      "region": "body",
+      "path": "body:p158",
+      "start": 67075,
+      "end": 67712
+    },
+    {
+      "region": "body",
+      "path": "body:p159",
+      "start": 67713,
+      "end": 67713
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl160:r0:c0:p0",
+      "start": 67714,
+      "end": 67717
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl160:r0:c1:p0",
+      "start": 67718,
+      "end": 67732
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl160:r0:c2:p0",
+      "start": 67733,
+      "end": 67747
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl160:r0:c3:p0",
+      "start": 67748,
+      "end": 67752
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl160:r0:c4:p0",
+      "start": 67753,
+      "end": 67764
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl160:r1:c0:p0",
+      "start": 67765,
+      "end": 67765
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl160:r1:c1:p0",
+      "start": 67766,
+      "end": 67766
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl160:r1:c2:p0",
+      "start": 67767,
+      "end": 67767
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl160:r1:c3:p0",
+      "start": 67768,
+      "end": 67768
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl160:r1:c4:p0",
+      "start": 67769,
+      "end": 67769
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl160:r2:c0:p0",
+      "start": 67770,
+      "end": 67770
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl160:r2:c1:p0",
+      "start": 67771,
+      "end": 67771
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl160:r2:c2:p0",
+      "start": 67772,
+      "end": 67772
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl160:r2:c3:p0",
+      "start": 67773,
+      "end": 67773
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl160:r2:c4:p0",
+      "start": 67774,
+      "end": 67774
+    },
+    {
+      "region": "body",
+      "path": "body:p160",
+      "start": 67775,
+      "end": 67775
+    },
+    {
+      "region": "body",
+      "path": "body:p161",
+      "start": 67776,
+      "end": 67800
+    },
+    {
+      "region": "body",
+      "path": "body:p162",
+      "start": 67801,
+      "end": 67835
+    },
+    {
+      "region": "body",
+      "path": "body:p163",
+      "start": 67836,
+      "end": 67982
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r0:c0:p0",
+      "start": 67983,
+      "end": 67986
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r0:c1:p0",
+      "start": 67987,
+      "end": 68001
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r0:c2:p0",
+      "start": 68002,
+      "end": 68016
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r0:c3:p0",
+      "start": 68017,
+      "end": 68021
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r0:c4:p0",
+      "start": 68022,
+      "end": 68033
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r1:c0:p0",
+      "start": 68034,
+      "end": 68037
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r1:c1:p0",
+      "start": 68038,
+      "end": 68072
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r1:c2:p0",
+      "start": 68073,
+      "end": 68075
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r1:c3:p0",
+      "start": 68076,
+      "end": 68086
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r1:c4:p0",
+      "start": 68087,
+      "end": 68110
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r2:c0:p0",
+      "start": 68111,
+      "end": 68114
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r2:c1:p0",
+      "start": 68115,
+      "end": 68148
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r2:c2:p0",
+      "start": 68149,
+      "end": 68151
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r2:c3:p0",
+      "start": 68152,
+      "end": 68162
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r2:c4:p0",
+      "start": 68163,
+      "end": 68209
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r3:c0:p0",
+      "start": 68210,
+      "end": 68213
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r3:c1:p0",
+      "start": 68214,
+      "end": 68248
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r3:c2:p0",
+      "start": 68249,
+      "end": 68251
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r3:c3:p0",
+      "start": 68252,
+      "end": 68262
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r3:c4:p0",
+      "start": 68263,
+      "end": 68295
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r4:c0:p0",
+      "start": 68296,
+      "end": 68299
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r4:c1:p0",
+      "start": 68300,
+      "end": 68338
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r4:c2:p0",
+      "start": 68339,
+      "end": 68341
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r4:c3:p0",
+      "start": 68342,
+      "end": 68352
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r4:c4:p0",
+      "start": 68353,
+      "end": 68386
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r5:c0:p0",
+      "start": 68387,
+      "end": 68390
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r5:c1:p0",
+      "start": 68391,
+      "end": 68433
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r5:c2:p0",
+      "start": 68434,
+      "end": 68436
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r5:c3:p0",
+      "start": 68437,
+      "end": 68447
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r5:c4:p0",
+      "start": 68448,
+      "end": 68473
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r6:c0:p0",
+      "start": 68474,
+      "end": 68477
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r6:c1:p0",
+      "start": 68478,
+      "end": 68514
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r6:c2:p0",
+      "start": 68515,
+      "end": 68517
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r6:c3:p0",
+      "start": 68518,
+      "end": 68528
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl164:r6:c4:p0",
+      "start": 68529,
+      "end": 68547
+    },
+    {
+      "region": "body",
+      "path": "body:p164",
+      "start": 68548,
+      "end": 68548
+    },
+    {
+      "region": "body",
+      "path": "body:p165",
+      "start": 68549,
+      "end": 68565
+    },
+    {
+      "region": "body",
+      "path": "body:p166",
+      "start": 68566,
+      "end": 69200
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r0:c0:p0",
+      "start": 69201,
+      "end": 69204
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r0:c1:p0",
+      "start": 69205,
+      "end": 69209
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r0:c2:p0",
+      "start": 69210,
+      "end": 69214
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r0:c3:p0",
+      "start": 69215,
+      "end": 69219
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r0:c4:p0",
+      "start": 69220,
+      "end": 69239
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r0:c5:p0",
+      "start": 69240,
+      "end": 69253
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r1:c0:p0",
+      "start": 69254,
+      "end": 69444
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r1:c1:p0",
+      "start": 69445,
+      "end": 69635
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r1:c2:p0",
+      "start": 69636,
+      "end": 69826
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r1:c3:p0",
+      "start": 69827,
+      "end": 70017
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r1:c4:p0",
+      "start": 70018,
+      "end": 70208
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r1:c5:p0",
+      "start": 70209,
+      "end": 70399
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r2:c0:p0",
+      "start": 70400,
+      "end": 70400
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r2:c1:p0",
+      "start": 70401,
+      "end": 70401
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r2:c2:p0",
+      "start": 70402,
+      "end": 70402
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r2:c3:p0",
+      "start": 70403,
+      "end": 70403
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r2:c4:p0",
+      "start": 70404,
+      "end": 70404
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r2:c5:p0",
+      "start": 70405,
+      "end": 70405
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r3:c0:p0",
+      "start": 70406,
+      "end": 70406
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r3:c1:p0",
+      "start": 70407,
+      "end": 70407
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r3:c2:p0",
+      "start": 70408,
+      "end": 70408
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r3:c3:p0",
+      "start": 70409,
+      "end": 70409
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r3:c4:p0",
+      "start": 70410,
+      "end": 70410
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r3:c5:p0",
+      "start": 70411,
+      "end": 70411
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r4:c0:p0",
+      "start": 70412,
+      "end": 70412
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r4:c1:p0",
+      "start": 70413,
+      "end": 70413
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r4:c2:p0",
+      "start": 70414,
+      "end": 70414
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r4:c3:p0",
+      "start": 70415,
+      "end": 70415
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r4:c4:p0",
+      "start": 70416,
+      "end": 70416
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl167:r4:c5:p0",
+      "start": 70417,
+      "end": 70417
+    },
+    {
+      "region": "body",
+      "path": "body:p167",
+      "start": 70418,
+      "end": 70443
+    },
+    {
+      "region": "body",
+      "path": "body:p168",
+      "start": 70444,
+      "end": 70478
+    },
+    {
+      "region": "body",
+      "path": "body:p169",
+      "start": 70479,
+      "end": 70701
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r0:c0:p0",
+      "start": 70702,
+      "end": 70705
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r0:c1:p0",
+      "start": 70706,
+      "end": 70710
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r0:c2:p0",
+      "start": 70711,
+      "end": 70715
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r0:c3:p0",
+      "start": 70716,
+      "end": 70720
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r0:c4:p0",
+      "start": 70721,
+      "end": 70740
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r0:c5:p0",
+      "start": 70741,
+      "end": 70754
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r1:c0:p0",
+      "start": 70755,
+      "end": 70924
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r1:c1:p0",
+      "start": 70925,
+      "end": 71094
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r1:c2:p0",
+      "start": 71095,
+      "end": 71264
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r1:c3:p0",
+      "start": 71265,
+      "end": 71434
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r1:c4:p0",
+      "start": 71435,
+      "end": 71604
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r1:c5:p0",
+      "start": 71605,
+      "end": 71774
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r2:c0:p0",
+      "start": 71775,
+      "end": 71777
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r2:c1:p0",
+      "start": 71778,
+      "end": 71818
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r2:c2:p0",
+      "start": 71819,
+      "end": 71832
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r2:c3:p0",
+      "start": 71833,
+      "end": 71835
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r2:c4:p0",
+      "start": 71836,
+      "end": 71838
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r2:c5:p0",
+      "start": 71839,
+      "end": 71849
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r3:c0:p0",
+      "start": 71850,
+      "end": 71852
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r3:c1:p0",
+      "start": 71853,
+      "end": 71895
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r3:c2:p0",
+      "start": 71896,
+      "end": 71910
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r3:c3:p0",
+      "start": 71911,
+      "end": 71914
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r3:c4:p0",
+      "start": 71915,
+      "end": 71917
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r3:c5:p0",
+      "start": 71918,
+      "end": 71928
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r4:c0:p0",
+      "start": 71929,
+      "end": 71931
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r4:c1:p0",
+      "start": 71932,
+      "end": 71972
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r4:c2:p0",
+      "start": 71973,
+      "end": 71984
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r4:c3:p0",
+      "start": 71985,
+      "end": 71988
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r4:c4:p0",
+      "start": 71989,
+      "end": 71991
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r4:c5:p0",
+      "start": 71992,
+      "end": 72002
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r5:c0:p0",
+      "start": 72003,
+      "end": 72005
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r5:c1:p0",
+      "start": 72006,
+      "end": 72050
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r5:c2:p0",
+      "start": 72051,
+      "end": 72063
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r5:c3:p0",
+      "start": 72064,
+      "end": 72067
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r5:c4:p0",
+      "start": 72068,
+      "end": 72070
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r5:c5:p0",
+      "start": 72071,
+      "end": 72081
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r6:c0:p0",
+      "start": 72082,
+      "end": 72084
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r6:c1:p0",
+      "start": 72085,
+      "end": 72135
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r6:c2:p0",
+      "start": 72136,
+      "end": 72147
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r6:c3:p0",
+      "start": 72148,
+      "end": 72150
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r6:c4:p0",
+      "start": 72151,
+      "end": 72153
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r6:c5:p0",
+      "start": 72154,
+      "end": 72164
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r7:c0:p0",
+      "start": 72165,
+      "end": 72167
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r7:c1:p0",
+      "start": 72168,
+      "end": 72225
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r7:c2:p0",
+      "start": 72226,
+      "end": 72240
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r7:c3:p0",
+      "start": 72241,
+      "end": 72244
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r7:c4:p0",
+      "start": 72245,
+      "end": 72247
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl170:r7:c5:p0",
+      "start": 72248,
+      "end": 72258
+    },
+    {
+      "region": "body",
+      "path": "body:p170",
+      "start": 72259,
+      "end": 72259
+    },
+    {
+      "region": "body",
+      "path": "body:p171",
+      "start": 72260,
+      "end": 72279
+    },
+    {
+      "region": "body",
+      "path": "body:p172",
+      "start": 72280,
+      "end": 72911
+    },
+    {
+      "region": "body",
+      "path": "body:p173",
+      "start": 72912,
+      "end": 73066
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r0:c0:p0",
+      "start": 73067,
+      "end": 73071
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r0:c1:p0",
+      "start": 73072,
+      "end": 73076
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r0:c2:p0",
+      "start": 73077,
+      "end": 73083
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r0:c3:p0",
+      "start": 73084,
+      "end": 73099
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r1:c0:p0",
+      "start": 73100,
+      "end": 73127
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r1:c1:p0",
+      "start": 73128,
+      "end": 73155
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r1:c2:p0",
+      "start": 73156,
+      "end": 73183
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r1:c3:p0",
+      "start": 73184,
+      "end": 73211
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r2:c0:p0",
+      "start": 73212,
+      "end": 73212
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r2:c1:p0",
+      "start": 73213,
+      "end": 73213
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r2:c2:p0",
+      "start": 73214,
+      "end": 73214
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r2:c3:p0",
+      "start": 73215,
+      "end": 73215
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r3:c0:p0",
+      "start": 73216,
+      "end": 73216
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r3:c1:p0",
+      "start": 73217,
+      "end": 73217
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r3:c2:p0",
+      "start": 73218,
+      "end": 73218
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r3:c3:p0",
+      "start": 73219,
+      "end": 73219
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r4:c0:p0",
+      "start": 73220,
+      "end": 73220
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r4:c1:p0",
+      "start": 73221,
+      "end": 73221
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r4:c2:p0",
+      "start": 73222,
+      "end": 73222
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r4:c3:p0",
+      "start": 73223,
+      "end": 73223
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r5:c0:p0",
+      "start": 73224,
+      "end": 73224
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r5:c1:p0",
+      "start": 73225,
+      "end": 73225
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r5:c2:p0",
+      "start": 73226,
+      "end": 73226
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl174:r5:c3:p0",
+      "start": 73227,
+      "end": 73227
+    },
+    {
+      "region": "body",
+      "path": "body:p174",
+      "start": 73228,
+      "end": 73253
+    },
+    {
+      "region": "body",
+      "path": "body:p175",
+      "start": 73254,
+      "end": 73288
+    },
+    {
+      "region": "body",
+      "path": "body:p176",
+      "start": 73289,
+      "end": 73568
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r0:c0:p0",
+      "start": 73569,
+      "end": 73573
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r0:c1:p0",
+      "start": 73574,
+      "end": 73578
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r0:c2:p0",
+      "start": 73579,
+      "end": 73585
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r0:c3:p0",
+      "start": 73586,
+      "end": 73601
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r1:c0:p0",
+      "start": 73602,
+      "end": 73602
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r1:c1:p0",
+      "start": 73603,
+      "end": 73603
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r1:c2:p0",
+      "start": 73604,
+      "end": 73604
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r1:c3:p0",
+      "start": 73605,
+      "end": 73605
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r2:c0:p0",
+      "start": 73606,
+      "end": 73655
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r2:c1:p0",
+      "start": 73656,
+      "end": 73657
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r2:c2:p0",
+      "start": 73658,
+      "end": 73659
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r2:c3:p0",
+      "start": 73660,
+      "end": 73740
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r3:c0:p0",
+      "start": 73741,
+      "end": 73798
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r3:c1:p0",
+      "start": 73799,
+      "end": 73800
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r3:c2:p0",
+      "start": 73801,
+      "end": 73802
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r3:c3:p0",
+      "start": 73803,
+      "end": 73870
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r4:c0:p0",
+      "start": 73871,
+      "end": 73894
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r4:c1:p0",
+      "start": 73895,
+      "end": 73918
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r4:c2:p0",
+      "start": 73919,
+      "end": 73942
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r4:c3:p0",
+      "start": 73943,
+      "end": 73966
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r5:c0:p0",
+      "start": 73967,
+      "end": 74013
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r5:c1:p0",
+      "start": 74014,
+      "end": 74015
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r5:c2:p0",
+      "start": 74016,
+      "end": 74017
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r5:c3:p0",
+      "start": 74018,
+      "end": 74144
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r6:c0:p0",
+      "start": 74145,
+      "end": 74199
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r6:c1:p0",
+      "start": 74200,
+      "end": 74201
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r6:c2:p0",
+      "start": 74202,
+      "end": 74203
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r6:c3:p0",
+      "start": 74204,
+      "end": 74286
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r7:c0:p0",
+      "start": 74287,
+      "end": 74317
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r7:c1:p0",
+      "start": 74318,
+      "end": 74348
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r7:c2:p0",
+      "start": 74349,
+      "end": 74379
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r7:c3:p0",
+      "start": 74380,
+      "end": 74410
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r8:c0:p0",
+      "start": 74411,
+      "end": 74465
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r8:c1:p0",
+      "start": 74466,
+      "end": 74467
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r8:c2:p0",
+      "start": 74468,
+      "end": 74469
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r8:c3:p0",
+      "start": 74470,
+      "end": 74611
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r9:c0:p0",
+      "start": 74612,
+      "end": 74612
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r9:c1:p0",
+      "start": 74613,
+      "end": 74613
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r9:c2:p0",
+      "start": 74614,
+      "end": 74614
+    },
+    {
+      "region": "body_table",
+      "path": "body_table:tbl177:r9:c3:p0",
+      "start": 74615,
+      "end": 74615
+    },
+    {
+      "region": "body",
+      "path": "body:p177",
+      "start": 74616,
+      "end": 74616
+    },
+    {
+      "region": "body",
+      "path": "body:p178",
+      "start": 74617,
+      "end": 74637
+    },
+    {
+      "region": "body",
+      "path": "body:p179",
+      "start": 74638,
+      "end": 75134
+    },
+    {
+      "region": "body",
+      "path": "body:p180",
+      "start": 75135,
+      "end": 75157
+    },
+    {
+      "region": "body",
+      "path": "body:p181",
+      "start": 75158,
+      "end": 75192
+    },
+    {
+      "region": "body",
+      "path": "body:p182",
+      "start": 75193,
+      "end": 77803
+    },
+    {
+      "region": "body",
+      "path": "body:p183",
+      "start": 77804,
+      "end": 77804
+    },
+    {
+      "region": "body",
+      "path": "body:p184",
+      "start": 77805,
+      "end": 77815
+    },
+    {
+      "region": "body",
+      "path": "body:p185",
+      "start": 77816,
+      "end": 77932
+    },
+    {
+      "region": "body",
+      "path": "body:p186",
+      "start": 77933,
+      "end": 78174
+    },
+    {
+      "region": "body",
+      "path": "body:p187",
+      "start": 78175,
+      "end": 78353
+    },
+    {
+      "region": "body",
+      "path": "body:p188",
+      "start": 78354,
+      "end": 78354
+    },
+    {
+      "region": "body",
+      "path": "body:p189",
+      "start": 78355,
+      "end": 78903
+    }
+  ],
+  "entities": [
+    {
+      "label": "COURSE_CODE",
+      "surface": "DSAI2907",
+      "entity_type": "course",
+      "entity_id": "course_0008",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 20,
+          "end": 28,
+          "region": "header",
+          "path": "sec0:header:p0"
+        },
+        {
+          "start": 30,
+          "end": 38,
+          "region": "first_page_header",
+          "path": "sec0:first_page_header:p0"
+        },
+        {
+          "start": 95,
+          "end": 103,
+          "region": "first_page_footer",
+          "path": "sec0:first_page_footer:p0"
+        },
+        {
+          "start": 125,
+          "end": 133,
+          "region": "even_page_footer",
+          "path": "sec0:even_page_footer:p0"
+        }
+      ]
+    },
+    {
+      "label": "DATE",
+      "surface": "19/11/2025",
+      "entity_type": "document",
+      "entity_id": "317",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3002,
+          "end": 3012,
+          "region": "cover",
+          "path": "cover:p16"
+        }
+      ]
+    },
+    {
+      "label": "FIRST_NAME",
+      "surface": "Heather",
+      "entity_type": "coordinator",
+      "entity_id": "co_00003",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3092,
+          "end": 3099,
+          "region": "cover",
+          "path": "cover:p18"
+        },
+        {
+          "start": 3154,
+          "end": 3161,
+          "region": "cover",
+          "path": "cover:p19"
+        }
+      ]
+    },
+    {
+      "label": "FIRST_NAME",
+      "surface": "Howard",
+      "entity_type": "student",
+      "entity_id": "i6315147",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 40154,
+          "end": 40160,
+          "region": "body",
+          "path": "body:p102"
+        },
+        {
+          "start": 72136,
+          "end": 72142,
+          "region": "body_table",
+          "path": "body_table:tbl170:r6:c2:p0"
+        },
+        {
+          "start": 75146,
+          "end": 75152,
+          "region": "body",
+          "path": "body:p180"
+        }
+      ]
+    },
+    {
+      "label": "FIRST_NAME",
+      "surface": "James",
+      "entity_type": "student",
+      "entity_id": "i6314994",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3428,
+          "end": 3433,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r6:c1:p0"
+        },
+        {
+          "start": 7011,
+          "end": 7016,
+          "region": "body",
+          "path": "body:p55"
+        },
+        {
+          "start": 17515,
+          "end": 17520,
+          "region": "body",
+          "path": "body:p62"
+        },
+        {
+          "start": 43198,
+          "end": 43203,
+          "region": "body",
+          "path": "body:p116"
+        },
+        {
+          "start": 57656,
+          "end": 57661,
+          "region": "body",
+          "path": "body:p138"
+        },
+        {
+          "start": 59476,
+          "end": 59481,
+          "region": "body_table",
+          "path": "body_table:tbl152:r1:c0:p1"
+        },
+        {
+          "start": 60310,
+          "end": 60315,
+          "region": "body_table",
+          "path": "body_table:tbl152:r3:c0:p1"
+        },
+        {
+          "start": 66636,
+          "end": 66641,
+          "region": "body_table",
+          "path": "body_table:tbl156:r1:c0:p0"
+        },
+        {
+          "start": 66959,
+          "end": 66964,
+          "region": "body_table",
+          "path": "body_table:tbl156:r5:c0:p0"
+        },
+        {
+          "start": 71973,
+          "end": 71978,
+          "region": "body_table",
+          "path": "body_table:tbl170:r4:c2:p0"
+        }
+      ]
+    },
+    {
+      "label": "FIRST_NAME",
+      "surface": "Jennifer",
+      "entity_type": "student",
+      "entity_id": "i6317350",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3402,
+          "end": 3410,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r5:c1:p0"
+        },
+        {
+          "start": 33665,
+          "end": 33673,
+          "region": "body",
+          "path": "body:p88"
+        },
+        {
+          "start": 59998,
+          "end": 60006,
+          "region": "body_table",
+          "path": "body_table:tbl152:r3:c0:p0"
+        },
+        {
+          "start": 66797,
+          "end": 66805,
+          "region": "body_table",
+          "path": "body_table:tbl156:r3:c0:p0"
+        },
+        {
+          "start": 70429,
+          "end": 70437,
+          "region": "body",
+          "path": "body:p167"
+        },
+        {
+          "start": 72226,
+          "end": 72234,
+          "region": "body_table",
+          "path": "body_table:tbl170:r7:c2:p0"
+        }
+      ]
+    },
+    {
+      "label": "FIRST_NAME",
+      "surface": "Kathleen",
+      "entity_type": "student",
+      "entity_id": "i6317053",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 41863,
+          "end": 41871,
+          "region": "body",
+          "path": "body:p109"
+        }
+      ]
+    },
+    {
+      "label": "FIRST_NAME",
+      "surface": "Mark",
+      "entity_type": "student",
+      "entity_id": "i6316437",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3306,
+          "end": 3310,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r1:c1:p0"
+        },
+        {
+          "start": 6976,
+          "end": 6980,
+          "region": "body",
+          "path": "body:p54"
+        },
+        {
+          "start": 17549,
+          "end": 17553,
+          "region": "body",
+          "path": "body:p63"
+        },
+        {
+          "start": 20144,
+          "end": 20148,
+          "region": "body",
+          "path": "body:p77"
+        },
+        {
+          "start": 22415,
+          "end": 22419,
+          "region": "body",
+          "path": "body:p83"
+        },
+        {
+          "start": 33702,
+          "end": 33706,
+          "region": "body",
+          "path": "body:p89"
+        },
+        {
+          "start": 39286,
+          "end": 39290,
+          "region": "body",
+          "path": "body:p95"
+        },
+        {
+          "start": 40188,
+          "end": 40192,
+          "region": "body",
+          "path": "body:p103"
+        },
+        {
+          "start": 41900,
+          "end": 41904,
+          "region": "body",
+          "path": "body:p110"
+        },
+        {
+          "start": 43163,
+          "end": 43167,
+          "region": "body",
+          "path": "body:p115"
+        },
+        {
+          "start": 57690,
+          "end": 57694,
+          "region": "body",
+          "path": "body:p139"
+        },
+        {
+          "start": 60613,
+          "end": 60617,
+          "region": "body",
+          "path": "body:p154"
+        },
+        {
+          "start": 67823,
+          "end": 67827,
+          "region": "body",
+          "path": "body:p162"
+        },
+        {
+          "start": 70466,
+          "end": 70470,
+          "region": "body",
+          "path": "body:p168"
+        },
+        {
+          "start": 72051,
+          "end": 72055,
+          "region": "body_table",
+          "path": "body_table:tbl170:r5:c2:p0"
+        },
+        {
+          "start": 73276,
+          "end": 73280,
+          "region": "body",
+          "path": "body:p175"
+        },
+        {
+          "start": 75180,
+          "end": 75184,
+          "region": "body",
+          "path": "body:p181"
+        }
+      ]
+    },
+    {
+      "label": "FIRST_NAME",
+      "surface": "Melissa",
+      "entity_type": "student",
+      "entity_id": "i6317280",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3376,
+          "end": 3383,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r4:c1:p0"
+        },
+        {
+          "start": 39249,
+          "end": 39256,
+          "region": "body",
+          "path": "body:p94"
+        },
+        {
+          "start": 59969,
+          "end": 59976,
+          "region": "body_table",
+          "path": "body_table:tbl152:r3:c0:p0"
+        },
+        {
+          "start": 60336,
+          "end": 60343,
+          "region": "body_table",
+          "path": "body_table:tbl152:r3:c0:p1"
+        },
+        {
+          "start": 66768,
+          "end": 66775,
+          "region": "body_table",
+          "path": "body_table:tbl156:r3:c0:p0"
+        },
+        {
+          "start": 66985,
+          "end": 66992,
+          "region": "body_table",
+          "path": "body_table:tbl156:r5:c0:p0"
+        },
+        {
+          "start": 71896,
+          "end": 71903,
+          "region": "body_table",
+          "path": "body_table:tbl170:r3:c2:p0"
+        },
+        {
+          "start": 73239,
+          "end": 73246,
+          "region": "body",
+          "path": "body:p174"
+        }
+      ]
+    },
+    {
+      "label": "FIRST_NAME",
+      "surface": "Sarah",
+      "entity_type": "student",
+      "entity_id": "i6315438",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3351,
+          "end": 3356,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r3:c1:p0"
+        },
+        {
+          "start": 22379,
+          "end": 22384,
+          "region": "body",
+          "path": "body:p82"
+        },
+        {
+          "start": 59448,
+          "end": 59453,
+          "region": "body_table",
+          "path": "body_table:tbl152:r1:c0:p1"
+        },
+        {
+          "start": 66608,
+          "end": 66613,
+          "region": "body_table",
+          "path": "body_table:tbl156:r1:c0:p0"
+        },
+        {
+          "start": 67787,
+          "end": 67792,
+          "region": "body",
+          "path": "body:p161"
+        },
+        {
+          "start": 71819,
+          "end": 71824,
+          "region": "body_table",
+          "path": "body_table:tbl170:r2:c2:p0"
+        }
+      ]
+    },
+    {
+      "label": "FIRST_NAME",
+      "surface": "Shannon",
+      "entity_type": "tutor",
+      "entity_id": "ta_00023",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3175,
+          "end": 3182,
+          "region": "cover",
+          "path": "cover:p19"
+        }
+      ]
+    },
+    {
+      "label": "FIRST_NAME",
+      "surface": "Walter",
+      "entity_type": "student",
+      "entity_id": "i6317612",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3330,
+          "end": 3336,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r2:c1:p0"
+        },
+        {
+          "start": 20112,
+          "end": 20118,
+          "region": "body",
+          "path": "body:p76"
+        },
+        {
+          "start": 60581,
+          "end": 60587,
+          "region": "body",
+          "path": "body:p153"
+        }
+      ]
+    },
+    {
+      "label": "FULL_NAME",
+      "surface": "Heather Soto",
+      "entity_type": "coordinator",
+      "entity_id": "co_00003",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3092,
+          "end": 3104,
+          "region": "cover",
+          "path": "cover:p18"
+        },
+        {
+          "start": 3154,
+          "end": 3166,
+          "region": "cover",
+          "path": "cover:p19"
+        }
+      ]
+    },
+    {
+      "label": "FULL_NAME",
+      "surface": "Howard Rowe",
+      "entity_type": "student",
+      "entity_id": "i6315147",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 40154,
+          "end": 40165,
+          "region": "body",
+          "path": "body:p102"
+        },
+        {
+          "start": 72136,
+          "end": 72147,
+          "region": "body_table",
+          "path": "body_table:tbl170:r6:c2:p0"
+        },
+        {
+          "start": 75146,
+          "end": 75157,
+          "region": "body",
+          "path": "body:p180"
+        }
+      ]
+    },
+    {
+      "label": "FULL_NAME",
+      "surface": "James Stark",
+      "entity_type": "student",
+      "entity_id": "i6314994",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3428,
+          "end": 3439,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r6:c1:p0"
+        },
+        {
+          "start": 7011,
+          "end": 7022,
+          "region": "body",
+          "path": "body:p55"
+        },
+        {
+          "start": 17515,
+          "end": 17526,
+          "region": "body",
+          "path": "body:p62"
+        },
+        {
+          "start": 43198,
+          "end": 43209,
+          "region": "body",
+          "path": "body:p116"
+        },
+        {
+          "start": 57656,
+          "end": 57667,
+          "region": "body",
+          "path": "body:p138"
+        },
+        {
+          "start": 59476,
+          "end": 59487,
+          "region": "body_table",
+          "path": "body_table:tbl152:r1:c0:p1"
+        },
+        {
+          "start": 60310,
+          "end": 60321,
+          "region": "body_table",
+          "path": "body_table:tbl152:r3:c0:p1"
+        },
+        {
+          "start": 66636,
+          "end": 66647,
+          "region": "body_table",
+          "path": "body_table:tbl156:r1:c0:p0"
+        },
+        {
+          "start": 66959,
+          "end": 66970,
+          "region": "body_table",
+          "path": "body_table:tbl156:r5:c0:p0"
+        },
+        {
+          "start": 71973,
+          "end": 71984,
+          "region": "body_table",
+          "path": "body_table:tbl170:r4:c2:p0"
+        }
+      ]
+    },
+    {
+      "label": "FULL_NAME",
+      "surface": "Jennifer Jones",
+      "entity_type": "student",
+      "entity_id": "i6317350",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3402,
+          "end": 3416,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r5:c1:p0"
+        },
+        {
+          "start": 33665,
+          "end": 33679,
+          "region": "body",
+          "path": "body:p88"
+        },
+        {
+          "start": 59998,
+          "end": 60012,
+          "region": "body_table",
+          "path": "body_table:tbl152:r3:c0:p0"
+        },
+        {
+          "start": 66797,
+          "end": 66811,
+          "region": "body_table",
+          "path": "body_table:tbl156:r3:c0:p0"
+        },
+        {
+          "start": 70429,
+          "end": 70443,
+          "region": "body",
+          "path": "body:p167"
+        },
+        {
+          "start": 72226,
+          "end": 72240,
+          "region": "body_table",
+          "path": "body_table:tbl170:r7:c2:p0"
+        }
+      ]
+    },
+    {
+      "label": "FULL_NAME",
+      "surface": "Kathleen Brown",
+      "entity_type": "student",
+      "entity_id": "i6317053",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 41863,
+          "end": 41877,
+          "region": "body",
+          "path": "body:p109"
+        }
+      ]
+    },
+    {
+      "label": "FULL_NAME",
+      "surface": "Mark Aguilar",
+      "entity_type": "student",
+      "entity_id": "i6316437",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3306,
+          "end": 3318,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r1:c1:p0"
+        },
+        {
+          "start": 6976,
+          "end": 6988,
+          "region": "body",
+          "path": "body:p54"
+        },
+        {
+          "start": 17549,
+          "end": 17561,
+          "region": "body",
+          "path": "body:p63"
+        },
+        {
+          "start": 20144,
+          "end": 20156,
+          "region": "body",
+          "path": "body:p77"
+        },
+        {
+          "start": 22415,
+          "end": 22427,
+          "region": "body",
+          "path": "body:p83"
+        },
+        {
+          "start": 33702,
+          "end": 33714,
+          "region": "body",
+          "path": "body:p89"
+        },
+        {
+          "start": 39286,
+          "end": 39298,
+          "region": "body",
+          "path": "body:p95"
+        },
+        {
+          "start": 40188,
+          "end": 40200,
+          "region": "body",
+          "path": "body:p103"
+        },
+        {
+          "start": 41900,
+          "end": 41912,
+          "region": "body",
+          "path": "body:p110"
+        },
+        {
+          "start": 43163,
+          "end": 43175,
+          "region": "body",
+          "path": "body:p115"
+        },
+        {
+          "start": 57690,
+          "end": 57702,
+          "region": "body",
+          "path": "body:p139"
+        },
+        {
+          "start": 60613,
+          "end": 60625,
+          "region": "body",
+          "path": "body:p154"
+        },
+        {
+          "start": 67823,
+          "end": 67835,
+          "region": "body",
+          "path": "body:p162"
+        },
+        {
+          "start": 70466,
+          "end": 70478,
+          "region": "body",
+          "path": "body:p168"
+        },
+        {
+          "start": 72051,
+          "end": 72063,
+          "region": "body_table",
+          "path": "body_table:tbl170:r5:c2:p0"
+        },
+        {
+          "start": 73276,
+          "end": 73288,
+          "region": "body",
+          "path": "body:p175"
+        },
+        {
+          "start": 75180,
+          "end": 75192,
+          "region": "body",
+          "path": "body:p181"
+        }
+      ]
+    },
+    {
+      "label": "FULL_NAME",
+      "surface": "Melissa Watson",
+      "entity_type": "student",
+      "entity_id": "i6317280",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3376,
+          "end": 3390,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r4:c1:p0"
+        },
+        {
+          "start": 39249,
+          "end": 39263,
+          "region": "body",
+          "path": "body:p94"
+        },
+        {
+          "start": 59969,
+          "end": 59983,
+          "region": "body_table",
+          "path": "body_table:tbl152:r3:c0:p0"
+        },
+        {
+          "start": 60336,
+          "end": 60350,
+          "region": "body_table",
+          "path": "body_table:tbl152:r3:c0:p1"
+        },
+        {
+          "start": 66768,
+          "end": 66782,
+          "region": "body_table",
+          "path": "body_table:tbl156:r3:c0:p0"
+        },
+        {
+          "start": 66985,
+          "end": 66999,
+          "region": "body_table",
+          "path": "body_table:tbl156:r5:c0:p0"
+        },
+        {
+          "start": 71896,
+          "end": 71910,
+          "region": "body_table",
+          "path": "body_table:tbl170:r3:c2:p0"
+        },
+        {
+          "start": 73239,
+          "end": 73253,
+          "region": "body",
+          "path": "body:p174"
+        }
+      ]
+    },
+    {
+      "label": "FULL_NAME",
+      "surface": "Sarah Carlson",
+      "entity_type": "student",
+      "entity_id": "i6315438",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3351,
+          "end": 3364,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r3:c1:p0"
+        },
+        {
+          "start": 22379,
+          "end": 22392,
+          "region": "body",
+          "path": "body:p82"
+        },
+        {
+          "start": 59448,
+          "end": 59461,
+          "region": "body_table",
+          "path": "body_table:tbl152:r1:c0:p1"
+        },
+        {
+          "start": 66608,
+          "end": 66621,
+          "region": "body_table",
+          "path": "body_table:tbl156:r1:c0:p0"
+        },
+        {
+          "start": 67787,
+          "end": 67800,
+          "region": "body",
+          "path": "body:p161"
+        },
+        {
+          "start": 71819,
+          "end": 71832,
+          "region": "body_table",
+          "path": "body_table:tbl170:r2:c2:p0"
+        }
+      ]
+    },
+    {
+      "label": "FULL_NAME",
+      "surface": "Shannon Medina",
+      "entity_type": "tutor",
+      "entity_id": "ta_00023",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3175,
+          "end": 3189,
+          "region": "cover",
+          "path": "cover:p19"
+        }
+      ]
+    },
+    {
+      "label": "FULL_NAME",
+      "surface": "Walter Li",
+      "entity_type": "student",
+      "entity_id": "i6317612",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3330,
+          "end": 3339,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r2:c1:p0"
+        },
+        {
+          "start": 20112,
+          "end": 20121,
+          "region": "body",
+          "path": "body:p76"
+        },
+        {
+          "start": 60581,
+          "end": 60590,
+          "region": "body",
+          "path": "body:p153"
+        }
+      ]
+    },
+    {
+      "label": "LAST_NAME",
+      "surface": "Aguilar",
+      "entity_type": "student",
+      "entity_id": "i6316437",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3311,
+          "end": 3318,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r1:c1:p0"
+        },
+        {
+          "start": 6981,
+          "end": 6988,
+          "region": "body",
+          "path": "body:p54"
+        },
+        {
+          "start": 17554,
+          "end": 17561,
+          "region": "body",
+          "path": "body:p63"
+        },
+        {
+          "start": 20149,
+          "end": 20156,
+          "region": "body",
+          "path": "body:p77"
+        },
+        {
+          "start": 22420,
+          "end": 22427,
+          "region": "body",
+          "path": "body:p83"
+        },
+        {
+          "start": 33707,
+          "end": 33714,
+          "region": "body",
+          "path": "body:p89"
+        },
+        {
+          "start": 39291,
+          "end": 39298,
+          "region": "body",
+          "path": "body:p95"
+        },
+        {
+          "start": 40193,
+          "end": 40200,
+          "region": "body",
+          "path": "body:p103"
+        },
+        {
+          "start": 41905,
+          "end": 41912,
+          "region": "body",
+          "path": "body:p110"
+        },
+        {
+          "start": 43168,
+          "end": 43175,
+          "region": "body",
+          "path": "body:p115"
+        },
+        {
+          "start": 57695,
+          "end": 57702,
+          "region": "body",
+          "path": "body:p139"
+        },
+        {
+          "start": 60618,
+          "end": 60625,
+          "region": "body",
+          "path": "body:p154"
+        },
+        {
+          "start": 67828,
+          "end": 67835,
+          "region": "body",
+          "path": "body:p162"
+        },
+        {
+          "start": 70471,
+          "end": 70478,
+          "region": "body",
+          "path": "body:p168"
+        },
+        {
+          "start": 72056,
+          "end": 72063,
+          "region": "body_table",
+          "path": "body_table:tbl170:r5:c2:p0"
+        },
+        {
+          "start": 73281,
+          "end": 73288,
+          "region": "body",
+          "path": "body:p175"
+        },
+        {
+          "start": 75185,
+          "end": 75192,
+          "region": "body",
+          "path": "body:p181"
+        }
+      ]
+    },
+    {
+      "label": "LAST_NAME",
+      "surface": "Brown",
+      "entity_type": "student",
+      "entity_id": "i6317053",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 41872,
+          "end": 41877,
+          "region": "body",
+          "path": "body:p109"
+        }
+      ]
+    },
+    {
+      "label": "LAST_NAME",
+      "surface": "Carlson",
+      "entity_type": "student",
+      "entity_id": "i6315438",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3357,
+          "end": 3364,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r3:c1:p0"
+        },
+        {
+          "start": 22385,
+          "end": 22392,
+          "region": "body",
+          "path": "body:p82"
+        },
+        {
+          "start": 59454,
+          "end": 59461,
+          "region": "body_table",
+          "path": "body_table:tbl152:r1:c0:p1"
+        },
+        {
+          "start": 66614,
+          "end": 66621,
+          "region": "body_table",
+          "path": "body_table:tbl156:r1:c0:p0"
+        },
+        {
+          "start": 67793,
+          "end": 67800,
+          "region": "body",
+          "path": "body:p161"
+        },
+        {
+          "start": 71825,
+          "end": 71832,
+          "region": "body_table",
+          "path": "body_table:tbl170:r2:c2:p0"
+        }
+      ]
+    },
+    {
+      "label": "LAST_NAME",
+      "surface": "Jones",
+      "entity_type": "student",
+      "entity_id": "i6317350",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3411,
+          "end": 3416,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r5:c1:p0"
+        },
+        {
+          "start": 33674,
+          "end": 33679,
+          "region": "body",
+          "path": "body:p88"
+        },
+        {
+          "start": 60007,
+          "end": 60012,
+          "region": "body_table",
+          "path": "body_table:tbl152:r3:c0:p0"
+        },
+        {
+          "start": 66806,
+          "end": 66811,
+          "region": "body_table",
+          "path": "body_table:tbl156:r3:c0:p0"
+        },
+        {
+          "start": 70438,
+          "end": 70443,
+          "region": "body",
+          "path": "body:p167"
+        },
+        {
+          "start": 72235,
+          "end": 72240,
+          "region": "body_table",
+          "path": "body_table:tbl170:r7:c2:p0"
+        }
+      ]
+    },
+    {
+      "label": "LAST_NAME",
+      "surface": "Li",
+      "entity_type": "student",
+      "entity_id": "i6317612",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3337,
+          "end": 3339,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r2:c1:p0"
+        },
+        {
+          "start": 20119,
+          "end": 20121,
+          "region": "body",
+          "path": "body:p76"
+        },
+        {
+          "start": 60588,
+          "end": 60590,
+          "region": "body",
+          "path": "body:p153"
+        }
+      ]
+    },
+    {
+      "label": "LAST_NAME",
+      "surface": "Medina",
+      "entity_type": "tutor",
+      "entity_id": "ta_00023",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3183,
+          "end": 3189,
+          "region": "cover",
+          "path": "cover:p19"
+        }
+      ]
+    },
+    {
+      "label": "LAST_NAME",
+      "surface": "Rowe",
+      "entity_type": "student",
+      "entity_id": "i6315147",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 40161,
+          "end": 40165,
+          "region": "body",
+          "path": "body:p102"
+        },
+        {
+          "start": 72143,
+          "end": 72147,
+          "region": "body_table",
+          "path": "body_table:tbl170:r6:c2:p0"
+        },
+        {
+          "start": 75153,
+          "end": 75157,
+          "region": "body",
+          "path": "body:p180"
+        }
+      ]
+    },
+    {
+      "label": "LAST_NAME",
+      "surface": "Soto",
+      "entity_type": "coordinator",
+      "entity_id": "co_00003",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3100,
+          "end": 3104,
+          "region": "cover",
+          "path": "cover:p18"
+        },
+        {
+          "start": 3162,
+          "end": 3166,
+          "region": "cover",
+          "path": "cover:p19"
+        }
+      ]
+    },
+    {
+      "label": "LAST_NAME",
+      "surface": "Stark",
+      "entity_type": "student",
+      "entity_id": "i6314994",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3434,
+          "end": 3439,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r6:c1:p0"
+        },
+        {
+          "start": 7017,
+          "end": 7022,
+          "region": "body",
+          "path": "body:p55"
+        },
+        {
+          "start": 17521,
+          "end": 17526,
+          "region": "body",
+          "path": "body:p62"
+        },
+        {
+          "start": 43204,
+          "end": 43209,
+          "region": "body",
+          "path": "body:p116"
+        },
+        {
+          "start": 57662,
+          "end": 57667,
+          "region": "body",
+          "path": "body:p138"
+        },
+        {
+          "start": 59482,
+          "end": 59487,
+          "region": "body_table",
+          "path": "body_table:tbl152:r1:c0:p1"
+        },
+        {
+          "start": 60316,
+          "end": 60321,
+          "region": "body_table",
+          "path": "body_table:tbl152:r3:c0:p1"
+        },
+        {
+          "start": 66642,
+          "end": 66647,
+          "region": "body_table",
+          "path": "body_table:tbl156:r1:c0:p0"
+        },
+        {
+          "start": 66965,
+          "end": 66970,
+          "region": "body_table",
+          "path": "body_table:tbl156:r5:c0:p0"
+        },
+        {
+          "start": 71979,
+          "end": 71984,
+          "region": "body_table",
+          "path": "body_table:tbl170:r4:c2:p0"
+        }
+      ]
+    },
+    {
+      "label": "LAST_NAME",
+      "surface": "Watson",
+      "entity_type": "student",
+      "entity_id": "i6317280",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3384,
+          "end": 3390,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r4:c1:p0"
+        },
+        {
+          "start": 39257,
+          "end": 39263,
+          "region": "body",
+          "path": "body:p94"
+        },
+        {
+          "start": 59977,
+          "end": 59983,
+          "region": "body_table",
+          "path": "body_table:tbl152:r3:c0:p0"
+        },
+        {
+          "start": 60344,
+          "end": 60350,
+          "region": "body_table",
+          "path": "body_table:tbl152:r3:c0:p1"
+        },
+        {
+          "start": 66776,
+          "end": 66782,
+          "region": "body_table",
+          "path": "body_table:tbl156:r3:c0:p0"
+        },
+        {
+          "start": 66993,
+          "end": 66999,
+          "region": "body_table",
+          "path": "body_table:tbl156:r5:c0:p0"
+        },
+        {
+          "start": 71904,
+          "end": 71910,
+          "region": "body_table",
+          "path": "body_table:tbl170:r3:c2:p0"
+        },
+        {
+          "start": 73247,
+          "end": 73253,
+          "region": "body",
+          "path": "body:p174"
+        }
+      ]
+    },
+    {
+      "label": "PROGRAMME",
+      "surface": "MSc Data Science for Decision Making",
+      "entity_type": "course",
+      "entity_id": "course_0008",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3234,
+          "end": 3270,
+          "region": "cover",
+          "path": "cover:p21"
+        }
+      ]
+    },
+    {
+      "label": "ROLE",
+      "surface": "Coordinator",
+      "entity_type": "coordinator",
+      "entity_id": "co_00003",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3128,
+          "end": 3139,
+          "region": "cover",
+          "path": "cover:p19"
+        },
+        {
+          "start": 3141,
+          "end": 3152,
+          "region": "cover",
+          "path": "cover:p19"
+        }
+      ]
+    },
+    {
+      "label": "ROLE",
+      "surface": "Customer",
+      "entity_type": "coordinator",
+      "entity_id": "co_00003",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3072,
+          "end": 3080,
+          "region": "cover",
+          "path": "cover:p18"
+        },
+        {
+          "start": 3082,
+          "end": 3090,
+          "region": "cover",
+          "path": "cover:p18"
+        }
+      ]
+    },
+    {
+      "label": "ROLE",
+      "surface": "Tutor",
+      "entity_type": "tutor",
+      "entity_id": "ta_00023",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3168,
+          "end": 3173,
+          "region": "cover",
+          "path": "cover:p19"
+        }
+      ]
+    },
+    {
+      "label": "STUDENT_NUMBER",
+      "surface": "i1366437",
+      "entity_type": "student",
+      "entity_id": "i6316437",
+      "quality": "typo",
+      "occurrences": [
+        {
+          "start": 3319,
+          "end": 3327,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r1:c2:p0"
+        }
+      ]
+    },
+    {
+      "label": "STUDENT_NUMBER",
+      "surface": "i6314994",
+      "entity_type": "student",
+      "entity_id": "i6314994",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3440,
+          "end": 3448,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r6:c2:p0"
+        }
+      ]
+    },
+    {
+      "label": "STUDENT_NUMBER",
+      "surface": "i6315438",
+      "entity_type": "student",
+      "entity_id": "i6315438",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3365,
+          "end": 3373,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r3:c2:p0"
+        }
+      ]
+    },
+    {
+      "label": "STUDENT_NUMBER",
+      "surface": "i6317280",
+      "entity_type": "student",
+      "entity_id": "i6317280",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3391,
+          "end": 3399,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r4:c2:p0"
+        }
+      ]
+    },
+    {
+      "label": "STUDENT_NUMBER",
+      "surface": "i6317350",
+      "entity_type": "student",
+      "entity_id": "i6317350",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3417,
+          "end": 3425,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r5:c2:p0"
+        }
+      ]
+    },
+    {
+      "label": "STUDENT_NUMBER",
+      "surface": "i6317612",
+      "entity_type": "student",
+      "entity_id": "i6317612",
+      "quality": "clean",
+      "occurrences": [
+        {
+          "start": 3340,
+          "end": 3348,
+          "region": "cover_table",
+          "path": "cover_table:tbl22:r2:c2:p0"
+        }
+      ]
+    }
+  ],
+  "missing_expected": [],
+  "images": [
+    {
+      "image_id": "doc_00317_gantt_01",
+      "image_type": "gantt_chart",
+      "image_path": "images\\doc_00317_gantt.png",
+      "region": "body_image",
+      "placement_hint": "implementation:gantt_chart",
+      "text": "Project 3-1 — Gantt chart\nSynthetic medium planning view\nTask ID | Lead | Start | End | Title\nT1 | Sarah Carlson | 2025-11-27 | 2025-12-08 | Task: Open-source stable benchmark\nT2 | Melissa Watson | 2025-11-29 | 2025-12-07 | Study: brand dot com applications\nT3 | James Stark | 2025-11-29 | 2025-12-07 | Prototype: reinvent dynamic models\nT4 | Mark Aguilar | 2025-11-30 | 2025-12-10 | Review: matrix enterprise applications\nT5 | Howard Rowe | 2025-12-01 | 2025-12-14 | Workflow: expedite mission critical models\nT6 | Jennifer Jones | 2025-12-06 | 2025-12-12 | Package: expedite clicks and mortar architectures",
+      "text_lines": [
+        "Project 3-1 — Gantt chart",
+        "Synthetic medium planning view",
+        "Task ID | Lead | Start | End | Title",
+        "T1 | Sarah Carlson | 2025-11-27 | 2025-12-08 | Task: Open-source stable benchmark",
+        "T2 | Melissa Watson | 2025-11-29 | 2025-12-07 | Study: brand dot com applications",
+        "T3 | James Stark | 2025-11-29 | 2025-12-07 | Prototype: reinvent dynamic models",
+        "T4 | Mark Aguilar | 2025-11-30 | 2025-12-10 | Review: matrix enterprise applications",
+        "T5 | Howard Rowe | 2025-12-01 | 2025-12-14 | Workflow: expedite mission critical models",
+        "T6 | Jennifer Jones | 2025-12-06 | 2025-12-12 | Package: expedite clicks and mortar architectures"
+      ],
+      "entities": [
+        {
+          "label": "FULL_NAME",
+          "surface": "Sarah Carlson",
+          "entity_type": "student",
+          "entity_id": "i6315438",
+          "quality": "clean"
+        },
+        {
+          "label": "FULL_NAME",
+          "surface": "Melissa Watson",
+          "entity_type": "student",
+          "entity_id": "i6317280",
+          "quality": "clean"
+        },
+        {
+          "label": "FULL_NAME",
+          "surface": "James Stark",
+          "entity_type": "student",
+          "entity_id": "i6314994",
+          "quality": "clean"
+        },
+        {
+          "label": "FULL_NAME",
+          "surface": "Mark Aguilar",
+          "entity_type": "student",
+          "entity_id": "i6316437",
+          "quality": "clean"
+        },
+        {
+          "label": "FULL_NAME",
+          "surface": "Howard Rowe",
+          "entity_type": "student",
+          "entity_id": "i6315147",
+          "quality": "clean"
+        },
+        {
+          "label": "FULL_NAME",
+          "surface": "Jennifer Jones",
+          "entity_type": "student",
+          "entity_id": "i6317350",
+          "quality": "clean"
+        }
+      ]
+    }
+  ]
+}
